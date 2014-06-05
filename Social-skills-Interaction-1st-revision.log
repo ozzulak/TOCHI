@@ -1,0 +1,616 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.10)  5 JUN 2014 11:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Social-skills-Interaction-1st-revision
+(./Social-skills-Interaction-1st-revision.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./acmsmall.cls
+Document Class: acmsmall 2010/07/15, fonts included on 28 June 2010
+ACM, Production Font style: 2010/06/28 by Aptara
+
+Using ACM, TOCHI's option: 2010/05/04 by Aptara
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+Document Class `acmsmall' Electronic Submissions v1.4 <July 9, 2012> (ACM).
+\@firstpg=\count80
+\@lastpg=\count81
+\trimheight=\dimen104
+\trimwidth=\dimen105
+\normaltextheight=\dimen106
+\tempdimen=\dimen107
+\tempbox=\box26
+\tbbox=\box27
+\tabledim=\dimen108
+\symnewlargesymbols=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \bigsqcup on input line 1978.
+\normalparindent=\dimen109
+\footheight=\skip41
+\@maxsep=\skip42
+\@dblmaxsep=\skip43
+\@totalpg=\count82
+\@abstract=\box28
+\@permissionbox=\box29
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\enumdim=\dimen110
+\c@theorem=\count88
+\belowcaptionskip=\skip44
+\abovecaptionskip=\skip45
+\c@figure=\count89
+\c@table=\count90
+\@narrowfig=\dimen111
+\@nfigbox=\box30
+\@nfcapbox=\box31
+\@nfigbox=\box32
+\@nfcapbox=\box33
+\bibindent=\dimen112
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `normal'
+(Font)                  OT1/ams/bx/n --> OT1/ams/bx/n on input line 3560.
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `bold'
+(Font)                  OT1/ams/bx/n --> OT1/ams/bx/n on input line 3561.
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2010/09/21 v2.58 Date Time Package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2012/10/24 v2.02
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count91
+)
+\etb@tempcnta=\count92
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count93
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen113
+)
+\c@padzeroesN=\count94
+\fc@tmpcatcode=\count95
+\@DT@modctr=\count96
+\@ordinalctr=\count97
+\@orgargctr=\count98
+\@strctr=\count99
+\@tmpstrctr=\count100
+\@DT@loopN=\count101
+\@DT@X=\count102
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2012/06/18
+))
+\@day=\count103
+\@month=\count104
+\@year=\count105
+\c@HOUR=\count106
+\c@HOURXII=\count107
+\c@MINUTE=\count108
+\c@TOHOUR=\count109
+\c@TOMINUTE=\count110
+\c@SECOND=\count111
+\currenthour=\count112
+\currentminute=\count113
+\currentsecond=\count114
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 292.
+\@dtctr=\count115
+\dayofyear=\count116
+\dayofweek=\count117
+\dt@a=\toks16
+\dt@b=\toks17
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \FigName \@captype
+ \baselineskip 10pt \vskip \abovecaptionskip \setbox \@tempboxa \hbox {\figcapt
+ionfont {\figcaptionnumfont #1}.\hskip 7.3pt\relax #2\par }\ifdim \wd \@tempbox
+a >\hsize \figcaptionfont {\figcaptionnumfont #1}.\hskip 7.3pt\relax #2\par \el
+se \centerline {\box \@tempboxa }\fi \else \setbox \tbbox =\vbox {\hsize \tempd
+imen \tablecaptionfont {\tablenumfont #1.\ }{#2\par }}\setbox \@tempboxa \hbox 
+{\hsize \tempdimen \tablecaptionfont {\tablenumfont #1.}\ {#2\par }}\ifdim \wd 
+\@tempboxa >\tempdimen \centerline {\box \tbbox }\else \centerline {\box \@temp
+boxa }\fi \vskip \belowcaptionskip \fi .
+\c@ContinuedFloat=\count118
+) (./Social-skills-Interaction-1st-revision.aux)
+\openout1 = `Social-skills-Interaction-1st-revision.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+pnc on input line 56.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pnc.fd
+File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count119
+\scratchdimen=\dimen121
+\scratchbox=\box34
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen122
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks19
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: Incompatible package detected (regarding \@caption).
+(caption)             \@caption = \long macro:#1[#2]#3->\par \begingroup \@parb
+oxrestore \normalsize \@makecaption {\csname fnum@#1\endcsname }{\ignorespaces 
+#3}\par \endgroup .
+
+
+Package caption Warning: \caption will not be redefined since it's already
+(caption)                redefined by a document class or package which is
+(caption)                unknown to the caption package.
+See the caption package documentation for explanation.
+
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 93.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 97.
+
+Overfull \vbox (72.27pt too high) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+Non-PDF special ignored!
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 136.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 136.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 136.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 136.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 136.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 172.
+
+
+LaTeX Warning: Reference `sec:linkDomains' on page 2 undefined on input line 17
+2.
+
+[2] <images/SummaryResults.pdf, id=15, 351.03595pt x 722.37874pt>
+File: images/SummaryResults.pdf Graphic file (type pdf)
+
+<use images/SummaryResults.pdf>
+Package pdftex.def Info: images/SummaryResults.pdf used on input line 196.
+(pdftex.def)             Requested size: 276.35657pt x 568.7pt.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <9> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 197.
+
+
+LaTeX Warning: Float too large for page by 19.5pt on input line 199.
+
+[3] [4 <./images/SummaryResults.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+
+LaTeX Warning: Citation `Pasi' on page 6 undefined on input line 281.
+
+
+LaTeX Warning: Citation `Zins2004' on page 6 undefined on input line 281.
+
+[6]
+
+LaTeX Warning: Citation `dejong1994' on page 7 undefined on input line 306.
+
+<images/Elias-MethodsList.png, id=50, 523.9575pt x 134.5025pt>
+File: images/Elias-MethodsList.png Graphic file (type png)
+
+<use images/Elias-MethodsList.png>
+Package pdftex.def Info: images/Elias-MethodsList.png used on input line 314.
+(pdftex.def)             Requested size: 388.07831pt x 99.62468pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 327.
+ [7 <./images/Elias-MethodsList.png>]
+
+LaTeX Warning: Citation `Zins2004' on page 8 undefined on input line 330.
+
+<images/skills-list1.png, id=56, 817.0525pt x 894.34125pt>
+File: images/skills-list1.png Graphic file (type png)
+
+<use images/skills-list1.png>
+Package pdftex.def Info: images/skills-list1.png used on input line 357.
+(pdftex.def)             Requested size: 190.07831pt x 208.05501pt.
+
+<images/skills-list2.png, id=58, 811.03pt x 741.77126pt>
+File: images/skills-list2.png Graphic file (type png)
+
+<use images/skills-list2.png>
+Package pdftex.def Info: images/skills-list2.png used on input line 358.
+(pdftex.def)             Requested size: 190.07831pt x 173.8409pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 359.
+
+Underfull \hbox (badness 1360) in paragraph at lines 359--359
+[]\OT1/pnc/b/n/9 Fig. 2: |\OT1/pnc/m/n/9 Ex-em-plary list of skills rel-e-vant 
+to in-di-vid-ual com-pe-ten-cies (from $\OT1/cmtt/m/n/9 http : / / www .
+ []
+
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+[8 <./images/skills-list1.png> <./images/skills-list2.png>]
+<images/BuildingBlocks.pdf, id=65, 648.27559pt x 293.32143pt>
+File: images/BuildingBlocks.pdf Graphic file (type pdf)
+
+<use images/BuildingBlocks.pdf>
+Package pdftex.def Info: images/BuildingBlocks.pdf used on input line 410.
+(pdftex.def)             Requested size: 396.0pt x 179.18092pt.
+
+<images/strategiesMapping.jpg, id=66, 1003.75pt x 523.9575pt>
+File: images/strategiesMapping.jpg Graphic file (type jpg)
+
+<use images/strategiesMapping.jpg>
+Package pdftex.def Info: images/strategiesMapping.jpg used on input line 417.
+(pdftex.def)             Requested size: 356.39758pt x 186.04219pt.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <8> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 428.
+ [9] [10 <./images/BuildingBlocks.pdf> <./images/strategiesMapping.jpg>] [11] [
+12]
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no ú in font pncri7t!
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no ù in font pncri7t!
+
+
+LaTeX Warning: Citation `Zins' on page 13 undefined on input line 489.
+
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no î in font pncri7t!
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no ò in font pncri7t!
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no ô in font pncri7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--510
+
+ []
+
+[13] [14] [15]
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no ú in font pncri7t!
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no ù in font pncri7t!
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no î in font pncri7t!
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no î in font pncri7t!
+ [16]
+
+LaTeX Warning: Reference `fig:sum-challenges' on page 17 undefined on input lin
+e 759.
+
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+<images/SummaryHCI.pdf, id=125, 731.08252pt x 286.44304pt>
+File: images/SummaryHCI.pdf Graphic file (type pdf)
+
+<use images/SummaryHCI.pdf>
+Package pdftex.def Info: images/SummaryHCI.pdf used on input line 814.
+(pdftex.def)             Requested size: 396.0pt x 155.15771pt.
+ [19 <./images/SummaryHCI.pdf>]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [21]
+[22]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [23]
+[24]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [25]
+[26] [27] <images/Section6Summary.pdf, id=177, 737.34769pt x 416.17703pt>
+File: images/Section6Summary.pdf Graphic file (type pdf)
+
+<use images/Section6Summary.pdf>
+Package pdftex.def Info: images/Section6Summary.pdf used on input line 1153.
+(pdftex.def)             Requested size: 396.0pt x 223.50662pt.
+
+Underfull \vbox (badness 5022) has occurred while \output is active []
+
+ [28 <./images/Section6Summary.pdf>]
+<images/in-out.pdf, id=214, 735.09567pt x 289.82709pt>
+File: images/in-out.pdf Graphic file (type pdf)
+ <use images/in-out.pdf>
+Package pdftex.def Info: images/in-out.pdf used on input line 1181.
+(pdftex.def)             Requested size: 396.0pt x 156.12839pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./images/in-out.pdf>]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [30]
+[31]
+Underfull \hbox (badness 1107) in paragraph at lines 1292--1294
+[]  \OT1/phv/m/sl/9 5.3.1. Need for co-op-er-a-tion and knowl-edge shar-ing wit
+h cur-ric-ula de-sign-ers[]. \OT1/pnc/m/n/10 The learn-
+ []
+
+
+Underfull \vbox (badness 5119) has occurred while \output is active []
+
+ [32]
+[33] [34] (./Social-skills-Interaction-1st-revision.bbl
+Underfull \vbox (badness 7379) has occurred while \output is active []
+
+ [35]
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no ô in font pncri7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ê in font pncr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40])
+[41] (./Social-skills-Interaction-1st-revision.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4974 strings out of 493315
+ 71497 string characters out of 6137904
+ 164397 words of memory out of 5000000
+ 8328 multiletter control sequences out of 15000+600000
+ 30851 words of font info for 64 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,8n,38p,1760b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/nc
+ntrsbk/uncri8a.pfb>
+Output written on Social-skills-Interaction-1st-revision.pdf (41 pages, 894671 
+bytes).
+PDF statistics:
+ 311 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+

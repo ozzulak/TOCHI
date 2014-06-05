@@ -1,0 +1,531 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.4)  11 OCT 2013 11:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Social-skills-Interaction-gf
+(./Social-skills-Interaction-gf.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(./acmsmall.cls
+Document Class: acmsmall 2010/07/15, fonts included on 28 June 2010
+ACM, Production Font style: 2010/06/28 by Aptara
+
+Using ACM, TOCHI's option: 2010/05/04 by Aptara
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+Document Class `acmsmall' Electronic Submissions v1.4 <July 9, 2012> (ACM).
+\@firstpg=\count80
+\@lastpg=\count81
+\trimheight=\dimen104
+\trimwidth=\dimen105
+\normaltextheight=\dimen106
+\tempdimen=\dimen107
+\tempbox=\box26
+\tbbox=\box27
+\tabledim=\dimen108
+\symnewlargesymbols=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \bigsqcup on input line 1978.
+\normalparindent=\dimen109
+\footheight=\skip41
+\@maxsep=\skip42
+\@dblmaxsep=\skip43
+\@totalpg=\count82
+\@abstract=\box28
+\@permissionbox=\box29
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\enumdim=\dimen110
+\c@theorem=\count88
+\belowcaptionskip=\skip44
+\abovecaptionskip=\skip45
+\c@figure=\count89
+\c@table=\count90
+\@narrowfig=\dimen111
+\@nfigbox=\box30
+\@nfcapbox=\box31
+\@nfigbox=\box32
+\@nfcapbox=\box33
+\bibindent=\dimen112
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `normal'
+(Font)                  OT1/ams/bx/n --> OT1/ams/bx/n on input line 3560.
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `bold'
+(Font)                  OT1/ams/bx/n --> OT1/ams/bx/n on input line 3561.
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2010/09/21 v2.58 Date Time Package
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2009/10/02 v1.31
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen113
+)
+\c@padzeroesN=\count91
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english 2007/05/26
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fc-UKenglish.def
+File: fc-UKenglish 2007/06/14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fc-british.def
+File: fc-british 2007/06/14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fc-USenglish.def
+File: fc-USenglish 2007/06/14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fc-spanish.def
+File: fc-spanish.def 2007/05/26
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fc-portuges.def
+File: fc-portuges.def 2007/05/26
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fc-french.def
+File: fc-french.def 2007/05/26
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fc-german.def
+File: fc-german.def 2007/06/14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fmtcount/fc-italian.def
+File: fc-italian.def 2009/10/02 Italian support for fmtcount (Edoardo Pasca)
+)
+No configuration file fmtcount.cfg found.
+\@DT@modctr=\count92
+\@ordinalctr=\count93
+\@orgargctr=\count94
+\@strctr=\count95
+\@tmpstrctr=\count96
+\@DT@loopN=\count97
+\@DT@X=\count98
+)
+\@day=\count99
+\@month=\count100
+\@year=\count101
+\c@HOUR=\count102
+\c@HOURXII=\count103
+\c@MINUTE=\count104
+\c@TOHOUR=\count105
+\c@TOMINUTE=\count106
+\c@SECOND=\count107
+\currenthour=\count108
+\currentminute=\count109
+\currentsecond=\count110
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 292.
+\@dtctr=\count111
+\dayofyear=\count112
+\dayofweek=\count113
+\dt@a=\toks16
+\dt@b=\toks17
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@indent=\dimen117
+\caption@parindent=\dimen118
+\caption@hangindent=\dimen119
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \FigName \@captype
+ \baselineskip 10pt \vskip \abovecaptionskip \setbox \@tempboxa \hbox {\figcapt
+ionfont {\figcaptionnumfont #1}.\hskip 7.3pt\relax #2\par }\ifdim \wd \@tempbox
+a >\hsize \figcaptionfont {\figcaptionnumfont #1}.\hskip 7.3pt\relax #2\par \el
+se \centerline {\box \@tempboxa }\fi \else \setbox \tbbox =\vbox {\hsize \tempd
+imen \tablecaptionfont {\tablenumfont #1.\ }{#2\par }}\setbox \@tempboxa \hbox 
+{\hsize \tempdimen \tablecaptionfont {\tablenumfont #1.}\ {#2\par }}\ifdim \wd 
+\@tempboxa >\tempdimen \centerline {\box \tbbox }\else \centerline {\box \@temp
+boxa }\fi \vskip \belowcaptionskip \fi .
+\c@ContinuedFloat=\count114
+) (./Social-skills-Interaction-gf.aux)
+\openout1 = `Social-skills-Interaction-gf.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Try loading font information for OT1+pnc on input line 65.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1pnc.fd
+File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen120
+\scratchbox=\box34
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen121
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks19
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: Incompatible package detected (regarding \@caption).
+(caption)             \@caption = \long macro:#1[#2]#3->\par \begingroup \@parb
+oxrestore \normalsize \@makecaption {\csname fnum@#1\endcsname }{\ignorespaces 
+#3}\par \endgroup .
+
+
+Package caption Warning: \caption will not be redefined since it's already
+(caption)                redefined by a document class or package which is
+(caption)                unknown to the caption package.
+See the caption package documentation for explanation.
+
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 103.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 103.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 107.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 144.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 144.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 144.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 144.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 144.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (72.27pt too high) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+Non-PDF special ignored!
+
+] [2]
+<images/SummaryResults.pdf, id=14, 351.03595pt x 722.37874pt>
+File: images/SummaryResults.pdf Graphic file (type pdf)
+
+<use images/SummaryResults.pdf>
+Package pdftex.def Info: images/SummaryResults.pdf used on input line 204.
+(pdftex.def)             Requested size: 276.35657pt x 568.7pt.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <9> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 205.
+
+
+LaTeX Warning: Float too large for page by 19.5pt on input line 207.
+
+[3] [4 <./images/SummaryResults.pdf>] [5] [6]
+<images/BuildingBlocks.pdf, id=50, 648.27559pt x 293.32143pt>
+File: images/BuildingBlocks.pdf Graphic file (type pdf)
+
+<use images/BuildingBlocks.pdf>
+Package pdftex.def Info: images/BuildingBlocks.pdf used on input line 408.
+(pdftex.def)             Requested size: 396.0pt x 179.18092pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 419.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <8> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 419.
+ [7 <./images/BuildingBlocks.pdf>] [8] [9]
+[10]
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 540.
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+ [11] [12] [13]
+Underfull \vbox (badness 2158) has occurred while \output is active []
+
+ [14]
+<images/challenges.pdf, id=107, 1242.14063pt x 776.9025pt>
+File: images/challenges.pdf Graphic file (type pdf)
+
+<use images/challenges.pdf>
+Package pdftex.def Info: images/challenges.pdf used on input line 742.
+(pdftex.def)             Requested size: 396.0pt x 247.67737pt.
+ [15 <./images/challenges.pdf>]
+<images/SummaryHCI.pdf, id=170, 731.08252pt x 286.44304pt>
+File: images/SummaryHCI.pdf Graphic file (type pdf)
+
+<use images/SummaryHCI.pdf>
+Package pdftex.def Info: images/SummaryHCI.pdf used on input line 809.
+(pdftex.def)             Requested size: 396.0pt x 155.15771pt.
+ [16 <./images/SummaryHCI.pdf>]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [18]
+[19]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [20]
+[21]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [22]
+[23] <images/Section6Summary.pdf, id=218, 737.34769pt x 416.17703pt>
+File: images/Section6Summary.pdf Graphic file (type pdf)
+
+<use images/Section6Summary.pdf>
+Package pdftex.def Info: images/Section6Summary.pdf used on input line 1149.
+(pdftex.def)             Requested size: 396.0pt x 223.50662pt.
+
+Underfull \vbox (badness 7379) has occurred while \output is active []
+
+ [24]
+[25 <./images/Section6Summary.pdf>]
+<images/in-out.pdf, id=259, 735.09567pt x 289.82709pt>
+File: images/in-out.pdf Graphic file (type pdf)
+ <use images/in-out.pdf>
+Package pdftex.def Info: images/in-out.pdf used on input line 1177.
+(pdftex.def)             Requested size: 396.0pt x 156.12839pt.
+
+[26 <./images/in-out.pdf>] [27] [28]
+Underfull \hbox (badness 1107) in paragraph at lines 1288--1290
+[]  \OT1/phv/m/sl/9 6.3.1. Need for co-op-er-a-tion and knowl-edge shar-ing wit
+h cur-ric-ula de-sign-ers[]. \OT1/pnc/m/n/10 The learn-
+ []
+
+[29] [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+(./Social-skills-Interaction-gf.bbl
+Underfull \vbox (badness 5893) has occurred while \output is active []
+
+ [32]
+Missing character: There is no ‚ in font pncri7t!
+Missing character: There is no Ä in font pncri7t!
+Missing character: There is no ô in font pncri7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ê in font pncr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Missing character: There is no ‚ in font pncr7t!
+Missing character: There is no Ä in font pncr7t!
+Missing character: There is no ô in font pncr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38])
+[39] (./Social-skills-Interaction-gf.aux) ) 
+Here is how much of TeX's memory you used:
+ 4857 strings out of 493488
+ 73158 string characters out of 3141327
+ 176340 words of memory out of 3000000
+ 8065 multiletter control sequences out of 15000+200000
+ 29666 words of font info for 59 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,8n,38p,1813b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/
+fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/helveti
+c/uhvb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvr8
+a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on Social-skills-Interaction-gf.pdf (39 pages, 490168 bytes).
+PDF statistics:
+ 362 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
