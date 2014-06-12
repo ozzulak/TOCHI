@@ -830,277 +830,7 @@ We choose a specific format for this session, we always outline a particular cha
 Especially for the embedding part, many of the proposed use-cases revolve around novel sensor and other tracking aspects (SSP). While the current state-of-art might not be robust and reliable enough to be directly deployable in SEL settings yet, we argue that existing studies suggest opportunities for these to be so in future; in addition such use-cases can serve as benchmarks for viability of the setting and thus provide important guidance for future development.
 
 
-
-
-
-\subsection{Embedding}
-
-Transfer of learned skills from SEL-specific class exercises to other activities in and out of school is a clear key challenge for the existing curricula [ref,ref]. We argue that digital technology could help in at least two ways: first, by extending the learning support and scaffolding for learners beyond the SEL lessons, e.g., through mobile and sensor based technology; and second through supporting a wider community around learning of social skills, including involvement of parents, teachers, and peers. 
-
-
-
-\subsubsection{Supporting learners - Transitioning the skills out of class into everyday situations}
-When SEL skills are to be transferred beyond the SEL related activities, the learners can no longer take the advantage of the direct scaffolding normally provided by the teacher. This brings several difficulties for the learners to re-inforce and apply their skills into these settings, as well as to learn from the experience. 
-
-We start by discussing the specific setting around SEL in/out of classroom, and the  \todo{Can we fit the in class/out of class dimension into here directly? Or at least make obvious that we talk about specific, fixed location and a set of SEL learning that can be supported, and the ability to 'ask' students to volunteer and use particular gatgets (as opposed to random people with a mobile phone at a random location) -- should we have a little section on setting affordances upfront? }
-
-\todo{Highlight this aims to support a novel informational overlay over existing real-world interactions that provides scaffolding for re-inforcement and transfer or learned skills in other contexts. As such, will bring serious challenges for HCI research in terms of robustness etc.; however school and still learning settings might ameliorate some when compared to completely in the wild studies as described above. }
-
-\paragraph{Identification of teachable moments}
-When interacting during recess, other than SEL classes, or outside of school completely, the learners encounter many occassions that are relevant to their SEL skills learning. However, the learners may revert to previous, negative behaviours (e.g., an angry outburst rather than a self-controlled reaction), especially if emotions are strong \cite[p. 56]{Elias} and no external guidance is available. \rephrase{Indeed, in the class, it is the role of the teacher to emphasise and point out moments that students could use their SEL skills in, and giving praise if they do -- especially for younger learners.} In such situations, it is not only difficult for the learner to apply the skills they have learned, but it is also difficult to identify such teachable moments, as the these activities are intertwined with other interactions. \rephrase{And if not identified, nothing can be learned}. 
-
-Supporting learners in identifying teachable moments around self-control or emotional awareness could be a particularly viable opportunity for technology.  
-%
-Drawing on the maturing HCI research on in-the-wild stress detection from physiological data [Picard,Poh,Ertin2011,MSR Redmond] or prosodic in speech [ref] to support the learners in becoming aware of their heightened arousal (e.g., through a private tactile reminder), serving as a cue to start the self-calming/self-control mechanisms taught in class. Earlier research in HCI suggests that providing such on-going subtle cues for facilitating awareness or triggers that remind users to attend to intended activities has been useful to help users modify their existing behaviours \cite{Consolvo2009,Obermair2008}. Similarly, this brings opportunities for novel tracking made available by Social signal processing, should it prove 
-\todo{Alternatively, leaving detection on the learner but supporting better focus -- e.g,  through journalling and other reminder methods, digital technology has been shown to support the users paying more attention to activities of interest -- think of something like the noticing button, or young kids asked to take pictures of students engaging in 'supported' behaviours (e.g., lending toys, playing together ...)}
-
-
-
-
-\paragraph{Scaffolding and structure to develop skills}
-Within SEL training sessions, learning of skills is scaffolded in many ways:  (i) the scaffolding inherent in the activity itself, such as prepared scenario for a role play that highlights a particular aspect to focus on, say de-escalation of conflict; (ii) the teachers' presence and input into the activity, such as prompts guiding the development of the role-play, and feedback on chosen behaviour; and (iii) also the fact that this is a SEL training session, which brings a particular set of foci for the students including the explicit attention paid to SEL skills development. However, outside of the SEL learning, even if that still within a class setting, much of this scaffolding disappears. 
-
-An example of such direct scaffolding are the problem solving strategies such as the 'stop-think-proceed' semaphore in PATHS, but similarly in other curricula. Schools currently deploy posters, especially those to support problem solving strategies, around the school. The key aim is to scaffold students' ability to remember and use these in the important teachable moments. However, these do not seem to work \ref{Cohen2006}.
-
-Such lack of structure and scaffolding points to the opportunities for technology to provide just-in-time prompts and reminders through mobile devices to support the scaffolding of activities  and focussing attention. 
-%
-\todo{Add the SEL example that points to the need to structure scaffold activities.} For example, the MOSOCO project \cite{Escobedo2012,Tentori2010} exemplifies how mobile phones can help children on the autistic spectrum structure and thus practise their social skills outside of lessons, and how the system can help elicit feedback from their peers. \todo{While the activities in question are relatively basic, it opens questions whether similar approaches might be possible for more complex behaviours.} Initial work has for example explored the use of such technology to deliver personalised strategies for stress coping [PopTherapy]
-
-		Similarly, crucial aspect the initial phases in all curricula is the ability to be aware, acknowledge and importantly also label own emotional experience over time, using methods such as FaceCards while in class. The power of mobile technology to prompt and collect such emotional reflection on-the-go presents opportunities to further extend such emotional awareness into other settings; and a number of projects have been already explored related techniques in various contexts in existing HCI work. \todo{AffectDiary work}.  Initial work has also deployed analogous principles to support emotional awareness training \cite{Matthews2011} and social skills exercises tracking \cite{DeSa2010} for psychotherapy clients, drawing on the increasing power and ubiquity of mobile phones. \todo{SubtleStone}. 
-
-While these projects did not specifically focus on the specifics of the emotional training in SEL (e.g., distinguishing between a particular set of emotions depending on age, or exploring the set of activities that led to that particular state), the general approach could be transferable to the SEL settings. 
-	
-% The systems supporting reflection have mostly been developed with real-world use in mind (\cite{McDuff2012,Balaam2011,Stahl2008,Moraveji2011}). 
-
-
-
-\subsubsection{Support opportunities to stop-and-learn from experience}
-Reflecting on own behaviour and choices is a crucial part of the experiential learning, and is inherent for all SEL class based activities. However, for situations outside the specific training scenarious, students might not be supported to reflect on the teachable moment afterwards. For example, it may intertwined with other, continuing activities that prevent reflection right away (e.g., resolving a conflict around who can play on what team during the recess, which once finished, leads into the game right away). Students may end up not reflecting at all, or, if they do, find it difficult to recall the situation and own reactions well [ref?].
-
-While only limited work exists in HCI around supporting such processes for social and emotional learning, analogies can be drawn from existing work exploring other aspects of reflective processes, such as in work. For example, work by Fleck, looked at the use of SenseCam to support reflection of budding teachers around their teaching style and abilities. The collected images have promoted a more grounded approach and blah. Similarly, \todo{Autism literature around SenseCam from Hayes p.79}. We expect that the ability to trigger SenseCam-like images as based on social signals tracking algorithms (e.g., stress level) could open other interesting options for future work.  
-
-Finally, students could also benefit from their own ability to record aspects of situations for future analysis.  \todo{ \cite{Hayes2008} automated recording that saves only 5 minutes before a button press, to make sure interesting aspects are not missed, but also to address privacy issues. While this is currently in control of teachers, similar mechanisms could be made to work for the students themselves, empowering them to be better able to collect data needed for their reflection and learning.} \todo{Add link to VIG here as a framework that aims to train social skills learning already, with such post-hoc reflective stage}
-%
-Such collected data could be incorporated as input into next SEL sessions that commonly contain discussions around issues and experiences related to SEL that students experienced over in between. Additional data made available through technology could then ground the discussion and 
-
-
-\end{itemize}
-
-
-
-
-% {{{ Social support
-\subsection{Social support -- community building}
-\end{itemize}
-	\begin{itemize}
-		\item parents
-		\item teachers 
-		\item peer support - social networking rubbish etc. 
-	\end{itemize}
-\end{itemize}
-
-Literature around SEL curricula highlights the importance of supportive atmosfere in the school but also at home, crucial to sucessful learning.
-This includes support from the school staff, learners peers, as well as parental involvement. We address each in turn: 
-
-
-% THIS IS MORE ABOUT SCAFFOLDING        Curricula across the domains rely on the trainers or peers to support the learning process by providing feedback, emotional support or tracking progress. However, trainers' or peers' support direct support is problematic to extend and maintain beyond the in-session learning in the current curricula. 
-				
-\paragraph{Parental involvement}				Parental involvement  constitutes a major aspect, and many curricula organise specific workshops and training activities for the parents. However, as these take place at a specific time/location, requiring specific travel, scheduling and other overheads for the parents, it is often difficult for parents to get involved due to time limitations, or lack of interest. Systems that would aim allow parents to engage and support the SEL learning of their children, e.g., through games or similar, are likely to be beneficial. For example, \citeN{Luckin2008} developed the Homework system that serves as a link between the school lessons, teachers and parents, facilitating the involvement of the parents in home learning activities of their children; and \citeN{Hong2012} explores how a social network can support a person with autism in drawing on advice, help and interactions with an extended network of close others, rather than relying on a single primary care-giver and/or the trainer. These examples also highlight how the expert role of the SEL teacher might be shared with or distributed to other social contacts, such as involving parents or extended family and friends networks. 
-				
-				
-				%, across all curricula. and  despite the activities being. 
-%       \item Although this is relevant to all curricula, it is  %As mentioned earlier, current curricula attempt to involve parents in, e.g., through asking them to come to meetings or sending them information sheets and letters, but this is not very effective. 
-
-
-
-
-%For example,  Such systems extend the support learners can receive from 'experts' in out-of-session contexts. 
-%\todo{While interesting, and worthwhile to follow-up on further, to our not much work done here apart from the initial studies?} - Is this necessary? There probably will be other papers we don't know about. 
-
-\paragraph{Peer support}
-Peer feedback and interaction are crucial for school-age children, especially in their teens. As such, systems utilising learners' broader social network could motivate and engage participants to keep up with the SEL goals. While existing HCI research has looked at this in other contexts, such as sustainability \cite{Gustafsson2009, Thieme2012b} or keeping fit \cite{Lin2006,Gasser2006}, similar approaches could be explored also in the contexts of  SEL learning. \todo{What the differences will be in terms of tracking/selecting behaviours to track?}
-
-%For example, the Power Agent \cite{Gustafsson2009} game uses social facilitation, particularly cooperation (with family members and peers) and competition (with other teams) to facilitate learning of energy saving behaviors in a game setting; and the BinCam \cite{Thieme2012b} leverages social influence, in this case mediated via a social network, to foster reflection and behavior change regarding waste and recycling. %Again, actual input regarding %the issue at hand, in this case pictures of people's garbage, was combined with an application tied into the users' social network in order to support the desired target behaviors. 
-%
-Similarly, FishSteps \cite{Lin2006} takes advantage of social competition to
-influence people to become more physically active; \citeN{Gasser2006} also use social facilitation to support healthy nutrition and activity. 
-Drawing on such peer cooperation or healthy competition could be very beneficial also for many aspects of social and emotional learning.  
-\todo{ Finally, [Munson2010] as a positive psychology exercise that prompts daily behaviour interaction with a social network. }
-
-Finally, social support can be facilitated also by less known peers, as is the case with online social networks and support groups. These has been extensively studied and used (see e.g., \cite{Barak2008,Newman2011}), especially in the context of patients with chronic diseases (e.g., cancer \cite{Skeels2010}), and other stressful periods in life (e.g., smoking cessation \cite{Ploderer2013}). The findings point to the potential of online support groups to provide emotional and information support.  %This kind of emotional support also has a positive effect on the longer term commitment of users \cite{Wang2012}, highlighting its relevance as a motivational factor.  
-Whereas social support groups have been mainly used for distress situations, where users come to discuss their issues and receive information or experiences from others, it would be interesting to explore if a similar model of social support and encouragement is viable for (parts of) social and emotional skills learning. % Examples from \todo{personal well-being/sports/running sites and massive online learning courses hint that it might be possible.}
-
-\section{Rest of stuff}
-% {{{ Inside/outside implications
-\subsection{Implications of facilitated learning -- possible settings}
-\label{sec:facilitated}
-
-One of the defining features of social skills learning curricula is the combination of facilitated teaching, i.e., learning under the guidance of an expert trainer, and the interplay between learning processes during and outside of the learning sessions. 
-Table~\ref{fig:in-out-dim} flags up our brief discussion on how inside/outside of training sessions differ in terms of affordances, target user groups and types of technology that could be used. 
-
-In particular, although one of the key HCI contributions to social emotional learning courses could be extending the learning support \emph{beyond} in-session learning, developing systems for the in-session contexts can be a good first step, both in terms of testing the technology, as well as being directly useful in supporting the facilitator's role and enhancing the learning experience. We suggest that in-session learning is an interesting design space in which novel technologies can be developed -- marrying the benefit of direct application into, and testing within, real-world scenarios, with the possibility to do so in a well constrained and manageable environment and with a facilitator who is an expert in both the content and the tools they use.   
-
-
-
-
-\begin{table}
-  \centering
-        %\includegraphics[width=0.8\textwidth]{images/In-out-sessionDimensions.png}
-        \includegraphics[width=\textwidth]{images/in-out.pdf}
-        \caption{Summarising the key differences between in- and out-of-session learning settings}
-        \label{fig:in-out-dim}
-\end{table}
-
-
-\subsubsection{In-session learning}
-Learning sessions typically take place indoors, involving a mix of lectures and hands-on experiences, likely with an expert trainer/coach present. This leads to a limited, often quite controllable setting for technology deployment and points to particular user roles that can be designed for, such as supporting the trainer's expert role (augmenting and enhancing rather than replacing their skills), facilitating peer feedback or group reflection on examples, and directly supporting the individual learners.
-
-Additionally,  the training experiences have a particular quality of being ``real'' and ``not-so-real'' at the same time: often asking participants to practise and try new skills out in a ``safe place'' (e.g., through role play), where potential failures in interaction are actually a valuable basis for reflection and learning, and the expert trainer can immediately assist if problems appear. In this sense, such in-session training is a `real' situation in terms of the learning setting, but fictional and `unreal' for the participants, and also a situation that is specifically open to, and designed for, external feedback and reflection. 
-
-The combination of the in-class space and the specificity of training experiences potentially allows for a more intricate\GeraldineFIX{G: not sure 'pervasive' is the right word here - what do you mean here?\ is it that it can be rolled out to lots of training contexts, or that it gets dedicated/focussed use or? } technology deployment than would be possible in every-day life. Many of the pragmatic and ethical challenges present outside of the classroom are relaxed, such as the possibility to affect, interrupt and shape the interactions; being less difficult to obtain consent with data collection; %, which straightforward for in-sessions learning, but less so ``in the wild''; 
-or the fact that the situation is role-played and thus (most probably) less personally sensitive for participants. Moreover, the 'controlled' training spaces have many additional advantages such as the potential for easier initial technology deployment and lower robustness requirements; or the potential for easy collection of training data corpuses for automated approaches such as social signal processing \GeraldineFIX{G: SSP - don't think this has been set up as an abbreviation before this? assume it is social sig  process?}or affective computing --- while still working with the "real" learning process (i.e., not an instrumentally designed laboratory task). The curricula are often well structured, with prepared exercises and model situations known in advance, which can also provide a focus for design work and ease initial deployment of technology. 
-
-
-\subsubsection{Out of session learning}
-Everyday life automatically offers many opportunities to practise social skills. Such practice serves an important role in most curricula as it supports successful transfer of learnt behaviours into learners' lives. 
-%
-The key issue is however that---in contrast to the in-session learning---learners can receive only very little support from the trainer or peers in these settings; thus skills that are not developed completely are hard to practise successfully. Learners can slip back into their old habits (perhaps not even knowing they are doing so), might not even attempt to try the skills (as the situation is too important), or would need external facilitation to practise successfully.  
-
-This points to a number of roles technology is likely to support when facilitating learning outside of the class session. As discussed earlier, systems can focus on individual learners and possible ways in which they can be supported in their practice (e.g., through feedback) and reflection on their behaviours. Alternatively, technology might attempt to seed a supporting environment for the learners through facilitating involvement of their social networks such as family, friends, colleagues into the learning process, supporting peer interaction and support outside of the in-session, or even providing links for the trainer's intervention or support outside of the learning session (and as captured data for feedback in class as will be discussed below). 
-
-The ``in-the-wild'', everyday setting has also implications for technologies used. The mobile and wearable nature of much available technology is likely to be key, together with the need to blend with and into everyday behaviours %(or practice in sociological sense -- \todo{ ask eva for a different word}) 
-and still provide meaningful feedback or benefit. Given the interpersonal nature of many social skills, any sensing which might involve people other than the learner outside of in-session learning will need to address many additional complex design and ethical challenges. 
-
-Still, supporting and facilitating learning outside of direct learning sessions is the key challenge for social and emotional skills curricula at the moment. We have also seen examples of HCI research in previous sections that have dealt with these successfully (e.g., \cite{Escobedo2012,Tentori2010,Matthews2011}), suggesting that it is possible to provide beneficial intervention even in such complex settings. 
-
-
-\subsubsection{Connecting in-/out-session learning}
-Another important area for technology support is supporting connections \textit{between}  in- and out-session learning. We envision that much has to be possible to extend the current ``homework'' approach used in the curricula, where the learners are asked to do particular exercises in between sessions and then report back (e.g., in person, and/or via an essay, diary record etc.)\GeraldineTODO{G: do these also need to be mentioned as explicit strategies in the discussions of the  learning principles and current approaches?   }.  Obvious examples of potential for technology support are to: track progress or practice; collect (video/audio) data to support post-hoc reflection or analysis within sessions; and support communication channels to get information/help from the peers or experts even when outside of the session (as discussed above). However, we expect many other, more sophisticated ideas are possible, each drawing on the particularities of the curricula and domain to be supported. An example of such technology, albeit aimed at learning mathematics rather than social skills, is from the Homework project \cite{Luckin2008}, where 5-7 year olds were given tablets and specialised software connecting class work, homework exercises, and facilitating parents' involvement and communication between parents and teachers.
-
-
-%\subsubsection{\todo{Summary text:}} if needed. 
-        
-%       Majority of activities and learning aspect in all courses consist of \emph{facilitated learning}, regardless of the domain. We argue below that this points to an interesting design space in which novel technologies can be developed, marrying the value of direct application into and testing within real-world scenarios, with the possibility to do so within well constrained and manageble environment.  Whereas one of the key HCI contributions to social emotional learning courses could be extending the learning support \emph{beyond} classrooms and directly facilitated learning, developing systems for the such facilitated contexts can be a good first step, both in terms of testing the technology, as well as being directly useful to the teaching process. 
-% }}}
-
-
-
-
-                 
-% }}}
-
-\section{Design Factors}
-\begin{itemize}
-	\item {\bf where on the dimension in/out-of-learning we design for -- teacher involvement; structuring of activities ... }
-	\item {\bf age appropriate -- use the table from Elias to give examples with a reference -- e.g., basic behaviours to make friends (SecondStep Kindergarden) vs. leadership skills (RCCP examples for teenagers)}
-	\item {\bf things taught -- are there any differences in the four topics we would draw out?}
-	\item {\bf type of feedback?}
-	\item {\bf part of a larger course}
-	\item {\bf at a fixed location -- school, thus can expect that infrastructure is possibly deployed around the building}
-	\item design to empower, support exploration 
-\end{itemize}
-
-\todo{Rename practice to mixed spaces -- a step in between embedding and class-room work}
-
-\subsubsection{Bringing practice opportunities "into the wild"}~\\ 
-\GeraldineFIX{ G: use the language of 'into the wild' as a parallel type of situation to make links to current chi issues clearer... P: Not sure what this means?}
-One of the key problems  existing curricula face when aiming to facilitate practice outside of the lessons is the difficulty in providing learners with sufficient and timely feedback or support during independent practice. This could be in form of real-time feedback during the external practice sessions, but also as a post-hoc support, helping the learner more reliably recall and reflect on their own behaviour. 
-
-Many of the feedback options described above have been, or at least have the potential to be, deployed in real-world use, suggesting that such systems could extend practice and feedback possibilities beyond formal learning settings. 
-%
-%
-Prior work also shows how technology can help shape and support practice, in particular interaction strategies outside of the class. \GeraldineTODO{G: Such systems fit well with the emphasis on following pre-structured ways of reacting  in medical/education domains - don't get this sentence really?}
-
-Feedback on other interactional aspects could be deployed in the wild. For example, systems such as Meeting Mediator \cite{Kim2008} or those described by \citeN{Pentland2008} could easily be adjusted to provide information on real-world meetings. Similarly, existing research suggests that some of the systems based on physiological signals could also be applicable outside of the laboratory or teaching contexts despite the increased noise such situations bring (e.g., \cite{Pan2011}). 
-%
-%\todo{Add pointers systems such as \cite{Tulsky2011}, which support post-hoc feedback on real-world practices, by recording and then annotating? In some way, it fits into reflection, but at the same time, it includes getting new feedback, e.g, from teacher or peers. The good thing is that is also comes from medical domain, i.e., not school education.}
-
-We argue that developing technology to support feedback and practice in the wild would highly benefit existing social and emotional learning programs, regardless of the domain, as it clearly addresses one of the key issues such curricula face. It would, however, also bring crucial challenges to HCI research, requiring systems that are robust enough to cope with ``in the wild'' settings and to address specific issues around which aspects can be sensed at all, the degree of adaptability, cost-benefit ratio etc. Section~\ref{sec:techAspect} discusses such technological challenges in more detail.   
-\GeraldineFIX{ G: AND.... elaborate more eg specific types of challenges ... capture, process, represent etc? devices? implicit vs explicit? degree of control/tailorability/personalisability? does it get shared, privacy etc? etc etc}
-
-
-\todo{How do we structure stuff -- is this going to be drawing out opportunities for tech with a more detailed review later? Or both together?}
-
-{\bf old text:}
-\begin{itemize}
-		\item Everyday life is full of 'teachable moments' [ref, ref, ref]-- e.g., childrens' self-control skills might be tested during playground disagreements or sports events. 
-		\item However, these are often hard to learn from directly for students, as the support available is classroom is missing and additional facilitation might be needed for the skills to be practiced properly (e.g., \todo{ add example? such as using teacher to prompt the student to do the Turtle etc?}), or \todo{ANOTHER EXAMPLE regarding the post-hoc reflection and learning phase support}? 
-		\item The first the need to provide {\bf prompts and reminders} about the required activities (cf the use of posters to create awareness [ref]), helping recall and eventually automatise proper behaviours
-		\item The second then leads to post-hoc analysis of own activity, where technology could provide {\bf further data to ground reflection}. 	
-
-The literature is clear about the challenge curricula face with transfer of learning from classes into everyday behaviour, and the related opportunities to scaffold and support such learning in such everyday situations. This highlights a clear need for the involvement of digital technology. While there has been so far little work in HCI directly on such topics, we argue that prior work around ubiquitous computing etc. suggests technology could successful in supporting this. We outline both the opportunities and challenges for HCI in this space.  \\
-{\bf Key challenge for HCI}: How can technology support learning of social skills in everyday life -- How can we sense, track and feedback relevant interaction data? How can technology structure and scaffold learning our of class -- providing a mixed space back to the tutors? Connecting learners? 
-How can technology further support support the actors beyond the the learner themselves? Support (and training) for parents, teachers; building a wider school based community around social and emotional learning. 
- 
- \todo{How can we better include autism literature -- and where do we show the differences?}
-\end{itemize}
-
-
-% {{{ OLD text
-\iffalse
-\vfill ~ \pagebreak
-This section draws out the potential synergies between the social and emotional learning, and existing HCI work and interests. We use the four learning principles to orient the discussion as they provide a direct connection to the curricula structure and approaches, and also to illustrate how this differentiation can serve as a good initial basis to guide thinking about  future HCI work on this topic. 
-
-As an overview,  Table \ref{fig:HCIsummary} outlines the broad connections between the learning principles, relevant themes of research in HCI, and exemplary areas particularly suitable for technology support. We address each learning principle separately, with illustrative examples of relevant HCI work. These examples suggest the extent of existing HCI research that could be re-appropriated as relevant to social and emotional learning and also highlight the opportunities and challenges this would pose to HCI research. We end by drawing out some of the roles technology could take across the learning principles. 
-
-
-\begin{table}
-  \centering
-        \includegraphics[width=\textwidth]{images/SummaryHCI.pdf}
-        \caption{Depiction of relations between the learning  principles, the links to HCI, and the related broader topics in HCI research}
-        \label{fig:HCIsummary}
-\end{table}
-\GeraldineFIX{ G: subtopics for feedback - reflect all of topics from earlier?; add 'scaffodling practise in class under practice subtopics?}
-\fi
-% }}}
-
-
-% {{{ Embedding into every day  
-\subsection{Embedding learned skills into everyday life} 
-\todo{ADD SEL EXAMPLES FOR EACH POINT!}
-
-Once a skill is partially learned, for example when the learner can enact it in a simulated situation within the class, the ultimate goal of the curricula is to support the learners in embedding such skills into their everyday behaviours and situations. In other words, embedding aims to support the transfer of skills learned in facilitated sessions into skills that are increasingly generalised and ingrained into everyday situations. In this sense, there is a subtle but important difference between embedding (background support for on-going, natural, everyday situations, over longer periods) and practice (a consciously enacted, specific activity aimed at practising a particular skill).
-
-Despite its importance, there is little trainers (or curricula designers) can do to facilitate and support such embedding at the moment. %apart from in-sessions training (e.g., role-play with real-world examples or dealing with naturally arising situations), or attempts to increase awareness awareness of the learned concepts outside of the sessions by, e.g., posters, reminder emails and, in the case of SEL for education, letters to parents.
-%
-In the rest of this section, we outline two exemplary ways in which existing HCI research might help address the challenge. First, a large body of research exists on using technology to facilitate behavioural change, supporting people in changing their everyday activities and habits. As social and emotional skills are also mostly behaviours (rather than, e.g., declarative `knowledge'), many of the techniques introduced in HCI to promote behaviour change for health or ecological sustainability are likely to be relevant for SEL.\GeraldineTODO{G:  although the specifics of social skills again have the potential to further challenge existing HCI systems into novel directions ... why, how? be a little specific here? } Second,  technology can tap into social support for embedding skills in everyday life. For example, technology can be used to share part of the expert/trainer role to other social contacts in the participants' lives, such as drawing on social support and feedback from their friends, colleagues, and parents (in the case of SEL in education); as well as to support interactions with online networks (who may be strangers but who  share the same goals). 
-%
-Together, such use of technology has the potential to enhance and augment one of the greatest challenges of the existing social and emotional skills learning curricula. 
-
-
-%\todo{The earlier text is just about social support. Now we want to start with making skills habitual etc. as per the text copied below from the intro:}
-
-%\todo{Old text:} Throughout the social skills learning process, the provision of support  from parents and family during everyday life is key for many of the analysed curricula. This kind of social support can provide a potential way of integrating the learning into everyday life. However, such embedding in everyday life is, in some ways, the least developed aspect of the curricula, currently  mainly done by meeting with parents at the beginning/end of a course and by sending letters and asking school children to do homework. In this area, technology can be employed in two ways: One the one hand, to facilitate social support by utilizing situated systems which connect students with their family and peers; and on the other hand by using ambient and ubiquitous persuasion that can sense student's activities in context and give adequate and timely feedback also outside the classroom.
-
-% {{{ Behav change
-                \subsubsection{Behaviour change technologies}
-Learning new social and emotional skills often includes a considerable change in habits and ways learners would automatically react and/or behave; this is also one of the key reasons why procedural learning is emphasised across all curricula and domains. %Routines and habits as something to be changed -- similar to social skills where although motivation for change might be present, hard to change existing patterns. 
-As already noted, while techniques for procedural learning are well established and available within sessions, curricula currently have few options to support embedding of the skills into everyday patterns of behaviour of the learners.
-
-        
-Behavioural change research within HCI has dealt with similar challenges, mainly in the context of health and ecological sustainability \cite{Hekler2013,Consolvo2009,Klasnja2011,Fitzpatrick2009}. % Such systems are often based on helping participants increase/reduce particular activities (such as go running, or stop smoking), often by facilitating that neccesary behaviours become a part of users daily schedules (e.g., running at least 3 times a week, or not having more than 1 cigaret a week), thus shaping new habits.
-Many behavioural change systems are based on pervasive technology used to track user behaviors in everyday life over extended time periods, and to help facilitate users' reflection and discovery of emerging patterns, enable exploration, and monitor own progress. For example, usage patterns of electricity \cite{Gustafsson2005}, water \cite{Kuznetsov2010} and food \cite{Ganglbauer2013} have been tracked and displayed to users to encourage conserving these resources.  Similarly, mobile devices and sensors have been used to continuously track personal information such as physical activity data  \cite{Lin2006a,Consolvo2008a} to facilitate ongoing awareness and promote healthier lifestyle habits; mobile devices have also been used to  help participants manage domestic activities such as TV consumption and household chores \cite{Reitberger2013}, fostering reflection and renegotiation of such activities based on awareness of behaviour patterns over time.
-%
-
-Although behaviour change literature directly addressing social skills is scarce in HCI so far, we expect that  similar strategies and technologies we see in other behavioural change topics could work well also for (parts of) SEL.
-%despite clear differences in what types of activities are tracked or supported, and the technical difficulties for doing so  (e.g., social skills being harder to measure when compared to tracking the water consumed or distance ran).
-Several examples of existing work provide preliminary evidence on how such long-term support and embedding might be possible. %, perhaps through higher reliance on the capabilities and reflection of the users.} 
-%
-%One such example is SocialMirror \cite{Hong2012}, \Geraldine{G: Hong is repeated here and below on the same page - use hte example just once or be clearer about different emphasis - currently sounds too similar and repeats }an ambient system to support embedding of learnt everyday behaviours of people with autism who are living independently, allowing the users to ask and receive feedback\GeraldineFIX{G: not so clearly behaviour change in the way it is described? } from a trusted community of acquaintances and professionals;  and 
-In one such example, \citeN{Munson2010} integrated a well-known positive psychology intervention into a social networking site, meshing with users' daily habits around these sites. 
-Similarly, \citeN{Mamykina2008} designed MAHI, a system for newly diagnosed diabetes patients, extending the in-class lessons by facilitating participants' ability to track, reflect on and analyse their everyday experiences with diabetes, leading to improved feeling of control over the disease.
-%\GeraldineTODO{G: again not so clearly behaviour change but better fitting with reflection section???}
-
-Altogether, the examples above suggest that many behavior change techniques have potential to foster the continuous application of learned skills throughout everyday life, and support learners in sustained and habitual use of these skills in the appropriate situations. %However, major challenges remain for HCI in this area, such as the robust sensing of social skills and interactions, adequate feedback modalities and finding the right duration and frequency for the deployment of the respective technologies.   
-% }}}
-
-% }}}
-
-
-
-\vfill ~ \pagebreak
-
-% {{{ Feedback
+% {{{ Supporting reflection
 \subsection{Supporting reflection}
 \label{sec:feedback}
 \paragraph{Supporting reflection} Second, we saw how the ability to reflect, and become aware of own and others emotions and thoughts underplays all skills taught in SEL; and, more generally, is also understood as the core part of experiential learning. Drawing on the existing HCI work on reflection, albeit currently focused mostly on individuals personal behaviour, we argue that there are great opportunities for digital technology to support also reflective processes underlying the social skills. \\
@@ -1202,10 +932,7 @@ In summary, many of the systems outlined above show the potential of technology 
 
 % }}}
 
-
-
-
-% {{{ Practice
+% {{{ Mixed spaces  
 \subsection{Practice}
 
 \paragraph{Facilitating practice of skills} Practice is the second fundamental aspect of experiential learning, and is heavily utilised in the curricula , e.g., in the form of simulation of sel related situations. We again highlight how use of technology, e.g., in the form of novel environment for practice (games, augmented reality, VR...), could provide the learners and curricula designers with a novel opportunities to enhance and improve the training. \\
@@ -1274,6 +1001,220 @@ In summary, social and emotional learning curricula could especially benefit fro
 
 
 % }}}
+% {{{ Embedding
+\subsection{Embedding}
+\todo{{\bf Key challenge for HCI}: How can technology support learning of social skills in everyday life -- How can we sense, track and feedback relevant interaction data? How can technology structure and scaffold learning our of class -- providing a mixed space back to the tutors? Connecting learners? }
+
+Transfer of learned skills from SEL-specific class exercises to other activities in and out of school is a clear key challenge for the existing curricula [ref,ref]. We argue that digital technology could help in at least two ways: first, by extending the learning support and scaffolding for learners beyond the SEL lessons, e.g., through mobile and sensor based technology; and second through supporting a wider community around learning of social skills, including involvement of parents, teachers, and peers. 
+
+
+\subsubsection{Supporting learners - Transitioning the skills out of class into everyday situations}
+When SEL skills are to be transferred beyond the SEL related activities, the learners can no longer take the advantage of the direct scaffolding normally provided by the teacher. This brings several difficulties for the learners to re-inforce and apply their skills into these settings, as well as to learn from the experience. 
+
+We start by discussing the specific setting around SEL in/out of classroom, and the  \todo{Can we fit the in class/out of class dimension into here directly? Or at least make obvious that we talk about specific, fixed location and a set of SEL learning that can be supported, and the ability to 'ask' students to volunteer and use particular gatgets (as opposed to random people with a mobile phone at a random location) -- should we have a little section on setting affordances upfront? }
+
+\todo{Highlight this aims to support a novel informational overlay over existing real-world interactions that provides scaffolding for re-inforcement and transfer or learned skills in other contexts. As such, will bring serious challenges for HCI research in terms of robustness etc.; however school and still learning settings might ameliorate some when compared to completely in the wild studies as described above. }
+
+\paragraph{Identification of teachable moments}
+When interacting during recess, other than SEL classes, or outside of school completely, the learners encounter many occassions that are relevant to their SEL skills learning. However, the learners may revert to previous, negative behaviours (e.g., an angry outburst rather than a self-controlled reaction), especially if emotions are strong \cite[p. 56]{Elias} and no external guidance is available. \rephrase{Indeed, in the class, it is the role of the teacher to emphasise and point out moments that students could use their SEL skills in, and giving praise if they do -- especially for younger learners.} In such situations, it is not only difficult for the learner to apply the skills they have learned, but it is also difficult to identify such teachable moments, as the these activities are intertwined with other interactions. \rephrase{And if not identified, nothing can be learned}. 
+
+Supporting learners in identifying teachable moments around self-control or emotional awareness could be a particularly viable opportunity for technology.  
+%
+Drawing on the maturing HCI research on in-the-wild stress detection from physiological data [Picard,Poh,Ertin2011,MSR Redmond] or prosodic in speech [ref] to support the learners in becoming aware of their heightened arousal (e.g., through a private tactile reminder), serving as a cue to start the self-calming/self-control mechanisms taught in class. Earlier research in HCI suggests that providing such on-going subtle cues for facilitating awareness or triggers that remind users to attend to intended activities has been useful to help users modify their existing behaviours \cite{Consolvo2009,Obermair2008}. Similarly, this brings opportunities for novel tracking made available by Social signal processing, should it prove 
+\todo{Alternatively, leaving detection on the learner but supporting better focus -- e.g,  through journalling and other reminder methods, digital technology has been shown to support the users paying more attention to activities of interest -- think of something like the noticing button, or young kids asked to take pictures of students engaging in 'supported' behaviours (e.g., lending toys, playing together ...)}
+
+
+
+
+\paragraph{Scaffolding and structure to develop skills}
+Within SEL training sessions, learning of skills is scaffolded in many ways:  (i) the scaffolding inherent in the activity itself, such as prepared scenario for a role play that highlights a particular aspect to focus on, say de-escalation of conflict; (ii) the teachers' presence and input into the activity, such as prompts guiding the development of the role-play, and feedback on chosen behaviour; and (iii) also the fact that this is a SEL training session, which brings a particular set of foci for the students including the explicit attention paid to SEL skills development. However, outside of the SEL learning, even if that still within a class setting, much of this scaffolding disappears. 
+
+An example of such direct scaffolding are the problem solving strategies such as the 'stop-think-proceed' semaphore in PATHS, but similarly in other curricula. Schools currently deploy posters, especially those to support problem solving strategies, around the school. The key aim is to scaffold students' ability to remember and use these in the important teachable moments. However, these do not seem to work \ref{Cohen2006}.
+
+Such lack of structure and scaffolding points to the opportunities for technology to provide just-in-time prompts and reminders through mobile devices to support the scaffolding of activities  and focussing attention. 
+%
+\todo{Add the SEL example that points to the need to structure scaffold activities.} For example, the MOSOCO project \cite{Escobedo2012,Tentori2010} exemplifies how mobile phones can help children on the autistic spectrum structure and thus practise their social skills outside of lessons, and how the system can help elicit feedback from their peers. \todo{While the activities in question are relatively basic, it opens questions whether similar approaches might be possible for more complex behaviours.} Initial work has for example explored the use of such technology to deliver personalised strategies for stress coping [PopTherapy]
+
+		Similarly, crucial aspect the initial phases in all curricula is the ability to be aware, acknowledge and importantly also label own emotional experience over time, using methods such as FaceCards while in class. The power of mobile technology to prompt and collect such emotional reflection on-the-go presents opportunities to further extend such emotional awareness into other settings; and a number of projects have been already explored related techniques in various contexts in existing HCI work. \todo{AffectDiary work}.  Initial work has also deployed analogous principles to support emotional awareness training \cite{Matthews2011} and social skills exercises tracking \cite{DeSa2010} for psychotherapy clients, drawing on the increasing power and ubiquity of mobile phones. \todo{SubtleStone}. 
+
+While these projects did not specifically focus on the specifics of the emotional training in SEL (e.g., distinguishing between a particular set of emotions depending on age, or exploring the set of activities that led to that particular state), the general approach could be transferable to the SEL settings. 
+	
+% The systems supporting reflection have mostly been developed with real-world use in mind (\cite{McDuff2012,Balaam2011,Stahl2008,Moraveji2011}). 
+
+
+
+\subsubsection{Support opportunities to stop-and-learn from experience}
+Reflecting on own behaviour and choices is a crucial part of the experiential learning, and is inherent for all SEL class based activities. However, for situations outside the specific training scenarious, students might not be supported to reflect on the teachable moment afterwards. For example, it may intertwined with other, continuing activities that prevent reflection right away (e.g., resolving a conflict around who can play on what team during the recess, which once finished, leads into the game right away). Students may end up not reflecting at all, or, if they do, find it difficult to recall the situation and own reactions well [ref?].
+
+While only limited work exists in HCI around supporting such processes for social and emotional learning, analogies can be drawn from existing work exploring other aspects of reflective processes, such as in work. For example, work by Fleck, looked at the use of SenseCam to support reflection of budding teachers around their teaching style and abilities. The collected images have promoted a more grounded approach and blah. Similarly, \todo{Autism literature around SenseCam from Hayes p.79}. We expect that the ability to trigger SenseCam-like images as based on social signals tracking algorithms (e.g., stress level) could open other interesting options for future work.  
+
+Finally, students could also benefit from their own ability to record aspects of situations for future analysis.  \todo{ \cite{Hayes2008} automated recording that saves only 5 minutes before a button press, to make sure interesting aspects are not missed, but also to address privacy issues. While this is currently in control of teachers, similar mechanisms could be made to work for the students themselves, empowering them to be better able to collect data needed for their reflection and learning.} \todo{Add link to VIG here as a framework that aims to train social skills learning already, with such post-hoc reflective stage}
+%
+Such collected data could be incorporated as input into next SEL sessions that commonly contain discussions around issues and experiences related to SEL that students experienced over in between. Additional data made available through technology could then ground the discussion and 
+
+\end{itemize}
+
+
+
+
+% {{{ Social support
+\subsection{Social support -- community building}
+
+Literature around SEL curricula highlights the importance of supportive atmosfere in the school but also at home, crucial to sucessful learning.
+This includes support from the school staff, learners peers, as well as parental involvement. We address each in turn: 
+
+
+% THIS IS MORE ABOUT SCAFFOLDING        Curricula across the domains rely on the trainers or peers to support the learning process by providing feedback, emotional support or tracking progress. However, trainers' or peers' support direct support is problematic to extend and maintain beyond the in-session learning in the current curricula. 
+				
+\paragraph{Parental involvement}				Parental involvement  constitutes a major aspect, and many curricula organise specific workshops and training activities for the parents. However, as these take place at a specific time/location, requiring specific travel, scheduling and other overheads for the parents, it is often difficult for parents to get involved due to time limitations, or lack of interest. Systems that would aim allow parents to engage and support the SEL learning of their children, e.g., through games or similar, are likely to be beneficial. For example, \citeN{Luckin2008} developed the Homework system that serves as a link between the school lessons, teachers and parents, facilitating the involvement of the parents in home learning activities of their children; and \citeN{Hong2012} explores how a social network can support a person with autism in drawing on advice, help and interactions with an extended network of close others, rather than relying on a single primary care-giver and/or the trainer. These examples also highlight how the expert role of the SEL teacher might be shared with or distributed to other social contacts, such as involving parents or extended family and friends networks. 
+				
+				
+				%, across all curricula. and  despite the activities being. 
+%       \item Although this is relevant to all curricula, it is  %As mentioned earlier, current curricula attempt to involve parents in, e.g., through asking them to come to meetings or sending them information sheets and letters, but this is not very effective. 
+
+
+
+
+%For example,  Such systems extend the support learners can receive from 'experts' in out-of-session contexts. 
+%\todo{While interesting, and worthwhile to follow-up on further, to our not much work done here apart from the initial studies?} - Is this necessary? There probably will be other papers we don't know about. 
+
+\paragraph{Peer support}
+Peer feedback and interaction are crucial for school-age children, especially in their teens. As such, systems utilising learners' broader social network could motivate and engage participants to keep up with the SEL goals. While existing HCI research has looked at this in other contexts, such as sustainability \cite{Gustafsson2009, Thieme2012b} or keeping fit \cite{Lin2006,Gasser2006}, similar approaches could be explored also in the contexts of  SEL learning. \todo{What the differences will be in terms of tracking/selecting behaviours to track?}
+
+%For example, the Power Agent \cite{Gustafsson2009} game uses social facilitation, particularly cooperation (with family members and peers) and competition (with other teams) to facilitate learning of energy saving behaviors in a game setting; and the BinCam \cite{Thieme2012b} leverages social influence, in this case mediated via a social network, to foster reflection and behavior change regarding waste and recycling. %Again, actual input regarding %the issue at hand, in this case pictures of people's garbage, was combined with an application tied into the users' social network in order to support the desired target behaviors. 
+%
+Similarly, FishSteps \cite{Lin2006} takes advantage of social competition to
+influence people to become more physically active; \citeN{Gasser2006} also use social facilitation to support healthy nutrition and activity. 
+Drawing on such peer cooperation or healthy competition could be very beneficial also for many aspects of social and emotional learning.  
+\todo{ Finally, [Munson2010] as a positive psychology exercise that prompts daily behaviour interaction with a social network. }
+
+Finally, social support can be facilitated also by less known peers, as is the case with online social networks and support groups. These has been extensively studied and used (see e.g., \cite{Barak2008,Newman2011}), especially in the context of patients with chronic diseases (e.g., cancer \cite{Skeels2010}), and other stressful periods in life (e.g., smoking cessation \cite{Ploderer2013}). The findings point to the potential of online support groups to provide emotional and information support.  %This kind of emotional support also has a positive effect on the longer term commitment of users \cite{Wang2012}, highlighting its relevance as a motivational factor.  
+Whereas social support groups have been mainly used for distress situations, where users come to discuss their issues and receive information or experiences from others, it would be interesting to explore if a similar model of social support and encouragement is viable for (parts of) social and emotional skills learning. % Examples from \todo{personal well-being/sports/running sites and massive online learning courses hint that it might be possible.}
+% }}}
+
+
+
+
+                 
+% }}}
+
+\section{Design Factors}
+\begin{itemize}
+	\item {\bf where on the dimension in/out-of-learning we design for -- teacher involvement; structuring of activities ... }
+	\item {\bf age appropriate -- use the table from Elias to give examples with a reference -- e.g., basic behaviours to make friends (SecondStep Kindergarden) vs. leadership skills (RCCP examples for teenagers)}
+	\item {\bf things taught -- are there any differences in the four topics we would draw out?}
+	\item {\bf type of feedback?}
+	\item {\bf part of a larger course}
+	\item {\bf at a fixed location -- school, thus can expect that infrastructure is possibly deployed around the building}
+	\item design to empower, support exploration 
+\end{itemize}
+
+\todo{Rename practice to mixed spaces -- a step in between embedding and class-room work}
+
+
+
+\subsubsection{Bringing practice opportunities "into the wild"}~\\ 
+\GeraldineFIX{ G: use the language of 'into the wild' as a parallel type of situation to make links to current chi issues clearer... P: Not sure what this means?}
+One of the key problems  existing curricula face when aiming to facilitate practice outside of the lessons is the difficulty in providing learners with sufficient and timely feedback or support during independent practice. This could be in form of real-time feedback during the external practice sessions, but also as a post-hoc support, helping the learner more reliably recall and reflect on their own behaviour. 
+
+Many of the feedback options described above have been, or at least have the potential to be, deployed in real-world use, suggesting that such systems could extend practice and feedback possibilities beyond formal learning settings. 
+%
+%
+Prior work also shows how technology can help shape and support practice, in particular interaction strategies outside of the class. \GeraldineTODO{G: Such systems fit well with the emphasis on following pre-structured ways of reacting  in medical/education domains - don't get this sentence really?}
+
+Feedback on other interactional aspects could be deployed in the wild. For example, systems such as Meeting Mediator \cite{Kim2008} or those described by \citeN{Pentland2008} could easily be adjusted to provide information on real-world meetings. Similarly, existing research suggests that some of the systems based on physiological signals could also be applicable outside of the laboratory or teaching contexts despite the increased noise such situations bring (e.g., \cite{Pan2011}). 
+%
+%\todo{Add pointers systems such as \cite{Tulsky2011}, which support post-hoc feedback on real-world practices, by recording and then annotating? In some way, it fits into reflection, but at the same time, it includes getting new feedback, e.g, from teacher or peers. The good thing is that is also comes from medical domain, i.e., not school education.}
+
+We argue that developing technology to support feedback and practice in the wild would highly benefit existing social and emotional learning programs, regardless of the domain, as it clearly addresses one of the key issues such curricula face. It would, however, also bring crucial challenges to HCI research, requiring systems that are robust enough to cope with ``in the wild'' settings and to address specific issues around which aspects can be sensed at all, the degree of adaptability, cost-benefit ratio etc. Section~\ref{sec:techAspect} discusses such technological challenges in more detail.   
+\GeraldineFIX{ G: AND.... elaborate more eg specific types of challenges ... capture, process, represent etc? devices? implicit vs explicit? degree of control/tailorability/personalisability? does it get shared, privacy etc? etc etc}
+
+
+\todo{How do we structure stuff -- is this going to be drawing out opportunities for tech with a more detailed review later? Or both together?}
+
+{\bf old text:}
+\begin{itemize}
+		\item Everyday life is full of 'teachable moments' [ref, ref, ref]-- e.g., childrens' self-control skills might be tested during playground disagreements or sports events. 
+		\item However, these are often hard to learn from directly for students, as the support available is classroom is missing and additional facilitation might be needed for the skills to be practiced properly (e.g., \todo{ add example? such as using teacher to prompt the student to do the Turtle etc?}), or \todo{ANOTHER EXAMPLE regarding the post-hoc reflection and learning phase support}? 
+		\item The first the need to provide {\bf prompts and reminders} about the required activities (cf the use of posters to create awareness [ref]), helping recall and eventually automatise proper behaviours
+		\item The second then leads to post-hoc analysis of own activity, where technology could provide {\bf further data to ground reflection}. 	
+
+The literature is clear about the challenge curricula face with transfer of learning from classes into everyday behaviour, and the related opportunities to scaffold and support such learning in such everyday situations. This highlights a clear need for the involvement of digital technology. While there has been so far little work in HCI directly on such topics, we argue that prior work around ubiquitous computing etc. suggests technology could successful in supporting this. We outline both the opportunities and challenges for HCI in this space.  \\
+
+How can technology further support support the actors beyond the the learner themselves? Support (and training) for parents, teachers; building a wider school based community around social and emotional learning. 
+ 
+ \todo{How can we better include autism literature -- and where do we show the differences?}
+\end{itemize}
+
+
+% {{{ OLD text
+\iffalse
+\vfill ~ \pagebreak
+This section draws out the potential synergies between the social and emotional learning, and existing HCI work and interests. We use the four learning principles to orient the discussion as they provide a direct connection to the curricula structure and approaches, and also to illustrate how this differentiation can serve as a good initial basis to guide thinking about  future HCI work on this topic. 
+
+As an overview,  Table \ref{fig:HCIsummary} outlines the broad connections between the learning principles, relevant themes of research in HCI, and exemplary areas particularly suitable for technology support. We address each learning principle separately, with illustrative examples of relevant HCI work. These examples suggest the extent of existing HCI research that could be re-appropriated as relevant to social and emotional learning and also highlight the opportunities and challenges this would pose to HCI research. We end by drawing out some of the roles technology could take across the learning principles. 
+
+
+\begin{table}
+  \centering
+        \includegraphics[width=\textwidth]{images/SummaryHCI.pdf}
+        \caption{Depiction of relations between the learning  principles, the links to HCI, and the related broader topics in HCI research}
+        \label{fig:HCIsummary}
+\end{table}
+\GeraldineFIX{ G: subtopics for feedback - reflect all of topics from earlier?; add 'scaffodling practise in class under practice subtopics?}
+\fi
+% }}}
+
+
+% {{{ Embedding into every day  
+\subsection{Embedding learned skills into everyday life} 
+\todo{ADD SEL EXAMPLES FOR EACH POINT!}
+
+Once a skill is partially learned, for example when the learner can enact it in a simulated situation within the class, the ultimate goal of the curricula is to support the learners in embedding such skills into their everyday behaviours and situations. In other words, embedding aims to support the transfer of skills learned in facilitated sessions into skills that are increasingly generalised and ingrained into everyday situations. In this sense, there is a subtle but important difference between embedding (background support for on-going, natural, everyday situations, over longer periods) and practice (a consciously enacted, specific activity aimed at practising a particular skill).
+
+Despite its importance, there is little trainers (or curricula designers) can do to facilitate and support such embedding at the moment. %apart from in-sessions training (e.g., role-play with real-world examples or dealing with naturally arising situations), or attempts to increase awareness awareness of the learned concepts outside of the sessions by, e.g., posters, reminder emails and, in the case of SEL for education, letters to parents.
+%
+In the rest of this section, we outline two exemplary ways in which existing HCI research might help address the challenge. First, a large body of research exists on using technology to facilitate behavioural change, supporting people in changing their everyday activities and habits. As social and emotional skills are also mostly behaviours (rather than, e.g., declarative `knowledge'), many of the techniques introduced in HCI to promote behaviour change for health or ecological sustainability are likely to be relevant for SEL.\GeraldineTODO{G:  although the specifics of social skills again have the potential to further challenge existing HCI systems into novel directions ... why, how? be a little specific here? } Second,  technology can tap into social support for embedding skills in everyday life. For example, technology can be used to share part of the expert/trainer role to other social contacts in the participants' lives, such as drawing on social support and feedback from their friends, colleagues, and parents (in the case of SEL in education); as well as to support interactions with online networks (who may be strangers but who  share the same goals). 
+%
+Together, such use of technology has the potential to enhance and augment one of the greatest challenges of the existing social and emotional skills learning curricula. 
+
+
+%\todo{The earlier text is just about social support. Now we want to start with making skills habitual etc. as per the text copied below from the intro:}
+
+%\todo{Old text:} Throughout the social skills learning process, the provision of support  from parents and family during everyday life is key for many of the analysed curricula. This kind of social support can provide a potential way of integrating the learning into everyday life. However, such embedding in everyday life is, in some ways, the least developed aspect of the curricula, currently  mainly done by meeting with parents at the beginning/end of a course and by sending letters and asking school children to do homework. In this area, technology can be employed in two ways: One the one hand, to facilitate social support by utilizing situated systems which connect students with their family and peers; and on the other hand by using ambient and ubiquitous persuasion that can sense student's activities in context and give adequate and timely feedback also outside the classroom.
+
+% {{{ Behav change
+                \subsubsection{Behaviour change technologies}
+Learning new social and emotional skills often includes a considerable change in habits and ways learners would automatically react and/or behave; this is also one of the key reasons why procedural learning is emphasised across all curricula and domains. %Routines and habits as something to be changed -- similar to social skills where although motivation for change might be present, hard to change existing patterns. 
+As already noted, while techniques for procedural learning are well established and available within sessions, curricula currently have few options to support embedding of the skills into everyday patterns of behaviour of the learners.
+
+        
+Behavioural change research within HCI has dealt with similar challenges, mainly in the context of health and ecological sustainability \cite{Hekler2013,Consolvo2009,Klasnja2011,Fitzpatrick2009}. % Such systems are often based on helping participants increase/reduce particular activities (such as go running, or stop smoking), often by facilitating that neccesary behaviours become a part of users daily schedules (e.g., running at least 3 times a week, or not having more than 1 cigaret a week), thus shaping new habits.
+Many behavioural change systems are based on pervasive technology used to track user behaviors in everyday life over extended time periods, and to help facilitate users' reflection and discovery of emerging patterns, enable exploration, and monitor own progress. For example, usage patterns of electricity \cite{Gustafsson2005}, water \cite{Kuznetsov2010} and food \cite{Ganglbauer2013} have been tracked and displayed to users to encourage conserving these resources.  Similarly, mobile devices and sensors have been used to continuously track personal information such as physical activity data  \cite{Lin2006a,Consolvo2008a} to facilitate ongoing awareness and promote healthier lifestyle habits; mobile devices have also been used to  help participants manage domestic activities such as TV consumption and household chores \cite{Reitberger2013}, fostering reflection and renegotiation of such activities based on awareness of behaviour patterns over time.
+%
+
+Although behaviour change literature directly addressing social skills is scarce in HCI so far, we expect that  similar strategies and technologies we see in other behavioural change topics could work well also for (parts of) SEL.
+%despite clear differences in what types of activities are tracked or supported, and the technical difficulties for doing so  (e.g., social skills being harder to measure when compared to tracking the water consumed or distance ran).
+Several examples of existing work provide preliminary evidence on how such long-term support and embedding might be possible. %, perhaps through higher reliance on the capabilities and reflection of the users.} 
+%
+%One such example is SocialMirror \cite{Hong2012}, \Geraldine{G: Hong is repeated here and below on the same page - use hte example just once or be clearer about different emphasis - currently sounds too similar and repeats }an ambient system to support embedding of learnt everyday behaviours of people with autism who are living independently, allowing the users to ask and receive feedback\GeraldineFIX{G: not so clearly behaviour change in the way it is described? } from a trusted community of acquaintances and professionals;  and 
+In one such example, \citeN{Munson2010} integrated a well-known positive psychology intervention into a social networking site, meshing with users' daily habits around these sites. 
+Similarly, \citeN{Mamykina2008} designed MAHI, a system for newly diagnosed diabetes patients, extending the in-class lessons by facilitating participants' ability to track, reflect on and analyse their everyday experiences with diabetes, leading to improved feeling of control over the disease.
+%\GeraldineTODO{G: again not so clearly behaviour change but better fitting with reflection section???}
+
+Altogether, the examples above suggest that many behavior change techniques have potential to foster the continuous application of learned skills throughout everyday life, and support learners in sustained and habitual use of these skills in the appropriate situations. %However, major challenges remain for HCI in this area, such as the robust sensing of social skills and interactions, adequate feedback modalities and finding the right duration and frequency for the deployment of the respective technologies.   
+% }}}
+
+% }}}
+
+
+
+\vfill ~ \pagebreak
+
+
+
+
+
 
 
 
@@ -1340,6 +1281,61 @@ Across all of these examples, we see a range of successfully deployed---or poten
 
 % }}}
 % }}}
+
+\section{Rest of stuff}
+% {{{ Inside/outside implications
+\subsection{Implications of facilitated learning -- possible settings}
+\label{sec:facilitated}
+
+One of the defining features of social skills learning curricula is the combination of facilitated teaching, i.e., learning under the guidance of an expert trainer, and the interplay between learning processes during and outside of the learning sessions. 
+Table~\ref{fig:in-out-dim} flags up our brief discussion on how inside/outside of training sessions differ in terms of affordances, target user groups and types of technology that could be used. 
+
+In particular, although one of the key HCI contributions to social emotional learning courses could be extending the learning support \emph{beyond} in-session learning, developing systems for the in-session contexts can be a good first step, both in terms of testing the technology, as well as being directly useful in supporting the facilitator's role and enhancing the learning experience. We suggest that in-session learning is an interesting design space in which novel technologies can be developed -- marrying the benefit of direct application into, and testing within, real-world scenarios, with the possibility to do so in a well constrained and manageable environment and with a facilitator who is an expert in both the content and the tools they use.   
+
+
+
+
+\begin{table}
+  \centering
+        %\includegraphics[width=0.8\textwidth]{images/In-out-sessionDimensions.png}
+        \includegraphics[width=\textwidth]{images/in-out.pdf}
+        \caption{Summarising the key differences between in- and out-of-session learning settings}
+        \label{fig:in-out-dim}
+\end{table}
+
+
+\subsubsection{In-session learning}
+Learning sessions typically take place indoors, involving a mix of lectures and hands-on experiences, likely with an expert trainer/coach present. This leads to a limited, often quite controllable setting for technology deployment and points to particular user roles that can be designed for, such as supporting the trainer's expert role (augmenting and enhancing rather than replacing their skills), facilitating peer feedback or group reflection on examples, and directly supporting the individual learners.
+
+Additionally,  the training experiences have a particular quality of being ``real'' and ``not-so-real'' at the same time: often asking participants to practise and try new skills out in a ``safe place'' (e.g., through role play), where potential failures in interaction are actually a valuable basis for reflection and learning, and the expert trainer can immediately assist if problems appear. In this sense, such in-session training is a `real' situation in terms of the learning setting, but fictional and `unreal' for the participants, and also a situation that is specifically open to, and designed for, external feedback and reflection. 
+
+The combination of the in-class space and the specificity of training experiences potentially allows for a more intricate\GeraldineFIX{G: not sure 'pervasive' is the right word here - what do you mean here?\ is it that it can be rolled out to lots of training contexts, or that it gets dedicated/focussed use or? } technology deployment than would be possible in every-day life. Many of the pragmatic and ethical challenges present outside of the classroom are relaxed, such as the possibility to affect, interrupt and shape the interactions; being less difficult to obtain consent with data collection; %, which straightforward for in-sessions learning, but less so ``in the wild''; 
+or the fact that the situation is role-played and thus (most probably) less personally sensitive for participants. Moreover, the 'controlled' training spaces have many additional advantages such as the potential for easier initial technology deployment and lower robustness requirements; or the potential for easy collection of training data corpuses for automated approaches such as social signal processing \GeraldineFIX{G: SSP - don't think this has been set up as an abbreviation before this? assume it is social sig  process?}or affective computing --- while still working with the "real" learning process (i.e., not an instrumentally designed laboratory task). The curricula are often well structured, with prepared exercises and model situations known in advance, which can also provide a focus for design work and ease initial deployment of technology. 
+
+
+\subsubsection{Out of session learning}
+Everyday life automatically offers many opportunities to practise social skills. Such practice serves an important role in most curricula as it supports successful transfer of learnt behaviours into learners' lives. 
+%
+The key issue is however that---in contrast to the in-session learning---learners can receive only very little support from the trainer or peers in these settings; thus skills that are not developed completely are hard to practise successfully. Learners can slip back into their old habits (perhaps not even knowing they are doing so), might not even attempt to try the skills (as the situation is too important), or would need external facilitation to practise successfully.  
+
+This points to a number of roles technology is likely to support when facilitating learning outside of the class session. As discussed earlier, systems can focus on individual learners and possible ways in which they can be supported in their practice (e.g., through feedback) and reflection on their behaviours. Alternatively, technology might attempt to seed a supporting environment for the learners through facilitating involvement of their social networks such as family, friends, colleagues into the learning process, supporting peer interaction and support outside of the in-session, or even providing links for the trainer's intervention or support outside of the learning session (and as captured data for feedback in class as will be discussed below). 
+
+The ``in-the-wild'', everyday setting has also implications for technologies used. The mobile and wearable nature of much available technology is likely to be key, together with the need to blend with and into everyday behaviours %(or practice in sociological sense -- \todo{ ask eva for a different word}) 
+and still provide meaningful feedback or benefit. Given the interpersonal nature of many social skills, any sensing which might involve people other than the learner outside of in-session learning will need to address many additional complex design and ethical challenges. 
+
+Still, supporting and facilitating learning outside of direct learning sessions is the key challenge for social and emotional skills curricula at the moment. We have also seen examples of HCI research in previous sections that have dealt with these successfully (e.g., \cite{Escobedo2012,Tentori2010,Matthews2011}), suggesting that it is possible to provide beneficial intervention even in such complex settings. 
+
+
+\subsubsection{Connecting in-/out-session learning}
+Another important area for technology support is supporting connections \textit{between}  in- and out-session learning. We envision that much has to be possible to extend the current ``homework'' approach used in the curricula, where the learners are asked to do particular exercises in between sessions and then report back (e.g., in person, and/or via an essay, diary record etc.)\GeraldineTODO{G: do these also need to be mentioned as explicit strategies in the discussions of the  learning principles and current approaches?   }.  Obvious examples of potential for technology support are to: track progress or practice; collect (video/audio) data to support post-hoc reflection or analysis within sessions; and support communication channels to get information/help from the peers or experts even when outside of the session (as discussed above). However, we expect many other, more sophisticated ideas are possible, each drawing on the particularities of the curricula and domain to be supported. An example of such technology, albeit aimed at learning mathematics rather than social skills, is from the Homework project \cite{Luckin2008}, where 5-7 year olds were given tablets and specialised software connecting class work, homework exercises, and facilitating parents' involvement and communication between parents and teachers.
+
+
+%\subsubsection{\todo{Summary text:}} if needed. 
+        
+%       Majority of activities and learning aspect in all courses consist of \emph{facilitated learning}, regardless of the domain. We argue below that this points to an interesting design space in which novel technologies can be developed, marrying the value of direct application into and testing within real-world scenarios, with the possibility to do so within well constrained and manageble environment.  Whereas one of the key HCI contributions to social emotional learning courses could be extending the learning support \emph{beyond} classrooms and directly facilitated learning, developing systems for the such facilitated contexts can be a good first step, both in terms of testing the technology, as well as being directly useful to the teaching process. 
+% }}}
+
+
 
 \vfill ~ \pagebreak
 % {{{ SECTION: Future research agenda
