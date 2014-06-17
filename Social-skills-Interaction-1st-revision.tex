@@ -839,7 +839,7 @@ The third approach is to capitalize on implicit or informal learning, such as ta
 
 \vfill ~ \pagebreak
 % {{{ SECTION -  Supporting SEL with technology
-\section{Challenges and apportunities to support SEL with technology}
+\section{SEL needs and oppportunities for technology support}
 \label{sec:HCIsupport}
 
 Despite the curricula effectivity to promote learning of social and emotional skills (cf. Section~\ref{sec:reasons}), the review of SEL literature also highlights \rephrase{areas for improvement}. In the rest of this section, we outline three such exemplary areas and point to existing HCI work that suggests how incorporating digital technology may address crucial needs within SEL learning.
@@ -972,7 +972,7 @@ Whereas social support groups have been mainly used for distress situations, whe
 % }}}
 
 %{{{ Supporting reflection
-\subsection{Supporting reflection}
+\subsection{Promoting reflective skills}
 \label{sec:feedback}
 The ability to reflect on own and others' emotions, thoughts and behaviour is the foundation for experiential learning \cite{Moon}, and as such underplays all skills taught in SEL \cite{Cohen2001,Cohen2006,Pasi2001,Zins,Maree,Paths}. %Reflective capacities involve personal and an interpersonal component that provide the student with the ability to understand and learn from social emotional experience. 
 Moreover learning to be reflective is one of the skills that are widely generalisable across settings and situations; and is one of the protective factors against later maladjustments \cite{Zins}.
@@ -1000,6 +1000,7 @@ Other systems help users to become more self-aware and draw out patterns that th
 %{{{ Mindfulness 
 \paragraph{Mindfulness and calming technology}
 Initial work focuses on supporting self-awareness in-the-moment. Examples are  systems such as designed by \citeN{Moraveji2011} to support greater awareness of one's own breathing and helping the user to maintain a calm and relaxed state; or mobile tracking systems exemplified by \citeN{Rabbi2011}. Such systems might be used either in a nearly unchanged form as a part of supporting mindfulness and breath control techniques, which are taught across a number of curricula. 
+\todo{add \cite{Vidyarthi2014}}
 \todo{anything from Autism??}
 %}}}
 
@@ -1021,6 +1022,7 @@ There are also indications that even subtler elements of interpersonal interacti
 
 % {{{ Mixed spaces  
 \subsection{Mixed spaces for practice}
+\label{sec:mixedSpaces}
 
 Practice is the second fundamental aspect of experiential learning, and is heavily utilised in the learning process. 
 
@@ -1097,40 +1099,89 @@ Prior research has also looked at the possibilities of novel interfaces such as 
 
 
 
-% {{{ Agenda for HCI 
-\section{Agenda for HCI}
-\todo{Key message in this section:} 
+ Agenda for HCI 
+\section{Opportunities for HCI}
+Previous section highlighted areas where digital technology could be particularly helpful in supporting the learning process, outlining existing HCI work that indicates that successful support of SEL could be possible. 
+%
+We now move on to outline some of the opportunities and challenges the context of social and emotional learning in education opens for HCI research. 
 
-\todo{Given we saw how SEL is taught, and the three example areas suggesting it is likely HCI can help... THIS IS WHAT HCI SHOULD DO AS THE NEXT STEPS}
+\subsection{SEL training as a test bed for systems looking at social and emotional interaction}
+\begin{itemize}
+	\item We start with looking at how the \rephrase{varied opportunities of scaffolding available in the teaching process in schools} present a unique test-bed and guidance for research on technologies aiming to support social and emotional skills learning; but also other aspects of social and emotional interaction.%; especially areas such as social signals processing or affective computing.\midskip
 
-\medskip 
-
-Main points: 
-\begin{enumerate}
-	\item {\bf Research around SSP and AC work }-- in-out-learning dimension + SEL needs as great opportunity to inspire, guide and test the algorithms
-	\begin{itemize}
-		\item Test-bed for SSP/AC ... curricula providing a continuum of control-wild settings to test in; as well as structure (specific tasks/skills to be learned and supported) as well as good evaluation methods for testing these. 
-		\item As such, [inspire/guide/test] crap. 
-		\item Automatic capture and processing of data that is robust and reliable is often difficult in the wild, especially if it is to be meshed fluidly with other complex interactions (as will be the case in both in-session and out of session systems here). However, sensing and processing of aspects relevant to social skills is likely to be challenging by itself, even in controlled laboratory conditions.
-
-This is partly due to the interpersonal nature of the sensed data, which has not been common in social signals processing, affective computing or related fields that focus so far mostly on individuals \cite{Vinciarelli2012}. Additionally, many of the social concepts taught in the courses are holistic and are yet to be defined in a way that would allow automatic sensing; it might even be impossible for some. Support for social and emotional skills courses thus raises many well-motivated research questions around which aspects can be sensed and interpreted\footnote{An intriguing parallel can be seen in psychology of interpersonal judgments, where a large body of research shows that human raters can reliably judge complex concepts such as perceived warmth or friendliness of a conversation on the macro level (gut instinct), but even after many studies micro-coding many of the non-verbal signals (head nods, movements etc.), it is still unclear what cues raters draw upon to make their intuitive judgements \cite{Ambady2000} or \cite[p.299]{harrigan2008}.}, and whether that is possible on the individual or interpersonal level (i.e., combining sensed data across participants).
-
-There is also a question of the level of interpretation we expect the system to provide. This leads to a continuum from leaving the sense-making of raw data entirely to the user and/or the facilitator (e.g., as per SenseCam systems \cite{Fleck2009}), to providing full interpretation by the system (e.g., as in arousal detection for people with autism \cite{Picard2009}). Even if particular concepts cannot be reliably and fully interpreted by technology, it might still be possible, and in many cases actually preferable, to support the users by providing a 'reasonably' pre-processed data they can view, interpret and reflect on. 
-	\end{itemize}
+	\item SEL curricula in schools provide a continuum of activities starting from tightly scaffolded interactions in class with the teacher present, to completely unstructured, in-the-wild settings at the playground or out of school. Moreover, curricula also bring a wide range of well-defined skills to be learned and supported (e.g., from identifying basic emotions to complex leadership skills), as well as evaluation methods for judging skills progression. \medskip
 	
-	\item {\bf Research around supporting Social reflection}
+	\item Such structure would be particularly useful for example to guide development and testing of real-world systems drawing on Affective Computing (AC) and Social Signals Processing (SSP), or other systems that aim to support social and emotional aspects of users' interaction.
+
+	\item Despite the recent advances, AC and SSP systems are still mostly developed and tested in the laboratory settings \cite{r,r,r}, mainly as the these are not ready for the full in-the-wild deployment and need, e.g., specific arrangement of sensors, lightning etc. 
+	\item Moreover, there is an increasing critique from within the AC and SSP fields that calls for the need of defining plausible real-world applications (e.g., \cite{Pantic2011,Vinciarelli2009}), and the corresponding broadening of emotional and social states to focus on (\cite{Calvo2010a,D'Mello2013}). %For example,   real-world application such supporting/detecting \todo{X and Y} in interactions in call-centers. 
+	\medskip
+
+	\item We argue that SEL in education provides an excellent example of such \todo{well-constrained} setting, \rephrase{providing opportunities to select just the right amount of scaffolding and control needed for the application at hand, with the potential to eventually start 'embedding' the support into progressively 'wilder' settings.}
+
+	\item For example, developing SSP/AC systems for the in-class SEL learning  can be a good first step for novel approaches that are still not ready to be deployed in-the-wild -- as in-class settings marry the benefit of direct application into, and testing within, real-world scenarios, with the possibility to do so in a well constrained and manageable environment and with a facilitator who is an expert in both the content and the tools they use.
+	
+	\item Most curricula (e.g., PATHS, Second Step, RULER and many others) are well structured, with prepared exercises and model situations, which provides a focus for design work and ease initial deployment of technology. This leads to a limited, quite controllable setting for technology deployment, e.g., a specific location in the classroom which is used for role-play exercises, or as part of a specific other practice setting such as a digital game (cf. Section~\ref{sec:mixedSpaces}). It also points to particular user roles that can be designed for, such as supporting the trainer's expert role (augmenting and enhancing rather than replacing their skills), facilitating peer feedback or group reflection on examples, and directly supporting the individual learners. 
+ Such 'controlled' training spaces also bring the potential for collection of data corpuses needed AC and SSP approaches need for training of algorithms, based on of real-world learning processes, as opposed to the current practice of instrumentally designed laboratory tasks or interactions in between actors.  
+\medskip
+
+	\item However, the importance curricula place on embedding of skills out of classroom learning means that if/once a technology system is ready to to so, it can be phased out into less controlled settings. 
+	\item This still offers a rich continuum of options designers/engineers can choose from: 
 	\begin{itemize}
-		\item steal the ideas (and perhaps the whole subsection?) from CSCW paper ... 
-	\end{itemize}
-	\item {\bf Participatory approaches to understand the needs of students/parents/teachers}
-	\item {\bf Research around SEL support for teachers + parents}-- community building and school-home interaction .. \todo{can I find more examples of such work?}
+		\item starting from still in-class but not SEL-learning --- i.e., still a fixed, controlled space to deploy the technology in and a teacher leading the scaffolding to some extent, but already on behaviour that is not tied to specific exercises 
+		\item through support students' interactions during breaks and other times when they are still on school property but not in any specific lesson-- taking advantage of the fact that the interactions are still localised on the school grounds, e.g., allowing additional technology to be deployed at strategically localised places (such as a main hall, playground etc.); and also the fact that all users are students that can be given the specific technology as part of their learning process (e.g., giving each student a \todo{Sociometer-like} badge and asking them to)
+		\item and finally into their other interactions outside of school (where little assumptions about other interactants or locations can be expected).
+	\end{itemize} \medskip
+
+	\item \todo{ More generally, use of SEL skills progression as inspiration and guidance for which aspects of social and emotional interaction HCI should explore further. In particularly, many of the social concepts taught as part of SEL are holistic. These are yet to be defined in a way that would allow automatic sensing, and it is likely is will be impossible for some. Support for social and emotional skills courses can thus raise many well-motivated research questions around which aspects can be sensed and interpreted at all\footnote{An intriguing parallel can be seen in psychology of interpersonal judgments, where a large body of research shows that human raters can reliably judge complex concepts such as perceived warmth or friendliness of a conversation on the macro level (gut instinct), but even after many studies micro-coding many of the non-verbal signals (head nods, movements etc.), it is still unclear what cues raters draw upon to make their intuitive judgements \cite{Ambady2000} or \cite[p.299]{harrigan2008}.}, and whether that is possible on the individual or interpersonal level (i.e., combining sensed data across participants).
+
+This highlights also a question of the level of interpretation we expect the system to provide, on the continuum from leaving the sense-making of raw data entirely to the user and/or the facilitator (e.g., as per SenseCam systems \cite{Fleck2009}), to providing full interpretation by the system (e.g., as in arousal detection for people with autism \cite{Picard2009}). Even if particular concepts cannot be reliably and fully interpreted by technology, it might still be possible, and in many cases actually preferable, to support the users by providing a 'reasonably' pre-processed data they can view, interpret and explore on. 
+\medskip 
+	
+	\item Finally, employing a particular technology as part of a \emph{learning process} is likely to bring a different approaches users might take regarding the use and exploration of the interaction with the system. For example, one would expect students consciously learning their negotiation skills to attend to the system differently (e.g., more likely to reflect on experience afterwards) than if the same system aimed to support a real negotiation processes at a work-place. 
+	\todo{Add -take advantage of learning process into any of the tables we create}
+
+
+\end{itemize}
+
+
+\subsection{Supporting 'social reflection'}
+
+\begin{itemize}
+	\item 
+Reflection plays a key role in learning all social and emotional skills -- and the ability to be reflective is an important social and emotional skill by itself \cite{Cohen2001,r,r}. Reflective processes processes can be directed at feelings and thoughts of an individual, as is the case for aspects such as self-awareness or mindfulness. 
+		
+		
+\item However, an important part of learning (particularly social) skills is the ability to explore and reflect on the thoughts and feelings of others; as exemplified by the weight curricula assign to attentive listening exercises, or various approaches to prevent or \rephrase{work through} misunderstandings.
+%
+In particular, students need to learn to understand how their own actions might have affected the partner’s thoughts and feelings, although these might not be directly observable and need to be collaboratively established.
+
+
+\item While HCI has already focussed on such individual reflection (cf. Section~\ref{sec:feedback}), mainly aiming to cue or facilitate reflection on individuals' behaviour and mental states (e.g., \cite{Sas2011,Stahl2008,Thieme2011,Isaacs2013}), the understanding of reflective processes as a collaborative social activity is relatively rare \cite{Fleck2012,Prilla2012}, and is arguably an area ripe for more detailed study \cite{Baumer2014}. 
+\todo{Extend some of the arguments from Baumer2014?}
+
+\item \todo{What would this mean for design/support -- suggest some of the design considerations from CSCW, just geared towards education?}
+
+\item Focus on supporting SEL in education thus presents HCI researchers with an interesting reflection case that is complementary to  existing reflection research in CSCW and HCI.  
+
+\item \todo{Moreover, initial research sugggests social reflection is not relevant only for SEL, but also for other aspects (e.g., coordination work in hospitals \cite{Prilla}, or decision making \cite{Dey})} Further exploration of the interpersonal reflection processes crucial for students' social and emotional learning can thus contribute to exploring options for technology support for social reflection in other social situations, as a relevant part of learning and sense-making.
+
+
+
+		%Our findings show how learning of interpersonal skills in counselling is an inherently social endeavour, building on a complex interplay of interpersonal reflection processes around practice counselling sessions, and involving multiple actors. In other words, we saw that although the student in the role of a counsellor might do most of the reflection work, the reflection process cannot be fully completed by any one participant alone. The client and possibly observer(s) need to partake and share their perspectives to jointly co-construct the interpretation of the session, and this is needed for the learning to take place. As such, the focus on the `interpersonal' comes in several variants -- the activity itself, the skills that are learned and thus reflected on, and the interactions between the counsellor, the client, and observers in the processing stage after the practice session. As highlighted by the suggested design considerations, systems aiming to facilitate counselling learning will need to take into account, and provide support for, all these aspects of interpersonal reflection.
+
+\end{itemize}
+
+
+\subsection{Designing for experiential learning }
 	\begin{itemize}
+		\item \rephrase{Can we make an argument that while a lot is known about what the learners (and probably teachers/paretns) need while supporting learning of usual topics such as math/sciences, very little is known about the needs of these groups within SEL. ==> especially as the existing literature in SEL does not discuss these deeply... }
+		\item Need for participatory approaches to understand the needs of students/parents/teachers. Area ripe for inclusion of technology and cultural probes (and similar approaches) to explore the settings and possible use of technology? 
 		\item Draw on Lewin2010 and Luckin to argue the potential is there but a need to carefully scaffold for parents' interaction and involvement
-		\item Area ripe for inclusion of technology and cultural probes (and similar approaches) to explore the settings and possible use of technology? 
 	\end{itemize}
-\end{enumerate}
 \bigskip
 
+\subsection{General design considerations around SEL}
 Factors: 
 \begin{itemize}
 	\item age approapriate skills to be supported (and interactions)  
@@ -1150,7 +1201,6 @@ Factors:
 \end{itemize}
 
  \todo{How can we better include autism literature -- and where do we show the differences?}
-\end{itemize}
 
 \iffalse
 % {{{ OLD text
@@ -1286,7 +1336,7 @@ Across all of these examples, we see a range of successfully deployed---or poten
 %The Figure~\ref{fig:HCIsummary} shows a summary of this, including a list of more general topics within HCI for challenge, from which we drew the examples mentioned in sections above. \todo{It is still a very rough draft of the figure -- not sure if it makes sense, and what "buzzwords" from HCI should be used in the end for each challenge. Still, the goal is to somehow tie the examples showed before in a more simplistic way to the research within HCI, and also indicate that it could be relevant to fairly large crowd.}
 
 % }}}
-% }}}
+
 
 \section{Rest of stuff}
 % {{{ Inside/outside implications
@@ -1319,7 +1369,7 @@ Learning sessions typically take place indoors, involving a mix of lectures and 
 
 Additionally,  the training experiences have a particular quality of being ``real'' and ``not-so-real'' at the same time: often asking participants to practise and try new skills out in a ``safe place'' (e.g., through role play), where potential failures in interaction are actually a valuable basis for reflection and learning, and the expert trainer can immediately assist if problems appear. In this sense, such in-session training is a `real' situation in terms of the learning setting, but fictional and `unreal' for the participants, and also a situation that is specifically open to, and designed for, external feedback and reflection. 
 
-The combination of the in-class space and the specificity of training experiences potentially allows for a more intricate\GeraldineFIX{G: not sure 'pervasive' is the right word here - what do you mean here?\ is it that it can be rolled out to lots of training contexts, or that it gets dedicated/focussed use or? } technology deployment than would be possible in every-day life. Many of the pragmatic and ethical challenges present outside of the classroom are relaxed, such as the possibility to affect, interrupt and shape the interactions; being less difficult to obtain consent with data collection; %, which straightforward for in-sessions learning, but less so ``in the wild''; 
+The combination of the in-class space and the specificity of training experiences potentially allows for a more intricate technology deployment than would be possible in every-day life. Many of the pragmatic and ethical challenges present outside of the classroom are relaxed, such as the possibility to affect, interrupt and shape the interactions; being less difficult to obtain consent with data collection; %, which straightforward for in-sessions learning, but less so ``in the wild''; 
 or the fact that the situation is role-played and thus (most probably) less personally sensitive for participants. Moreover, the 'controlled' training spaces have many additional advantages such as the potential for easier initial technology deployment and lower robustness requirements; or the potential for easy collection of training data corpuses for automated approaches such as social signal processing \GeraldineFIX{G: SSP - don't think this has been set up as an abbreviation before this? assume it is social sig  process?}or affective computing --- while still working with the "real" learning process (i.e., not an instrumentally designed laboratory task). The curricula are often well structured, with prepared exercises and model situations known in advance, which can also provide a focus for design work and ease initial deployment of technology. 
 
 
@@ -1472,7 +1522,7 @@ We now discuss the technical challenges faced by most future systems in this dom
 
 This is partly due to the interpersonal nature of the sensed data, which has not been common in social signals processing, affective computing or related fields that focus so far mostly on individuals \cite{Vinciarelli2012}. Additionally, many of the social concepts taught in the courses are holistic and are yet to be defined in a way that would allow automatic sensing; it might even be impossible for some. Support for social and emotional skills courses thus raises many well-motivated research questions around which aspects can be sensed and interpreted\footnote{An intriguing parallel can be seen in psychology of interpersonal judgments, where a large body of research shows that human raters can reliably judge complex concepts such as perceived warmth or friendliness of a conversation on the macro level (gut instinct), but even after many studies micro-coding many of the non-verbal signals (head nods, movements etc.), it is still unclear what cues raters draw upon to make their intuitive judgements \cite{Ambady2000} or \cite[p.299]{harrigan2008}.}, and whether that is possible on the individual or interpersonal level (i.e., combining sensed data across participants).
 
-There is also a question of the level of interpretation we expect the system to provide. This leads to a continuum from leaving the sense-making of raw data entirely to the user and/or the facilitator (e.g., as per SenseCam systems \cite{Fleck2009}), to providing full interpretation by the system (e.g., as in arousal detection for people with autism \cite{Picard2009}). Even if particular concepts cannot be reliably and fully interpreted by technology, it might still be possible, and in many cases actually preferable, to support the users by providing a 'reasonably' pre-processed data they can view, interpret and reflect on. 
+There is also a question of the level of interpretation we expect the system to provide. This leads to a continuum from leaving the sense-making of raw data entirely to the user and/or the facilitator (e.g., as per SenseCam systems \cite{Fleck2009}), to providing full interpretation by the system (e.g., as in arousal detection for people with autism \cite{Picard2009}). Even if particular concepts cannot be reliably and fully interpreted by technology, it might still be possible, and in many cases actually preferable, to support the users by providing a 'reasonably' pre-processed data they can view, interpret and reflect on.
 
 
 
