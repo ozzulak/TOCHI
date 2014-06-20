@@ -29,9 +29,9 @@
 % Commands
 \newcommand{\comment}[1]{}
 \newcommand{\killedForSpace}[1]{}
-\newcommand{\todo}[1]{\textrm{\textrm{\textcolor{LightBlue}{[[#1]]} } } }
-\newcommand{\forGer}[1]{\textrm{\textbf{\textcolor{LightBlue}{[[#1]]} } } }
-\newcommand{\Geraldine}[1]{\textrm{\textbf{\textcolor{Orange}{[[#1]]} } } }
+\newcommand{\todo}[1]{\textrm{\textrm{\textcolor{LightBlue}{[[#1]]}}}}
+\newcommand{\forGer}[1]{\textrm{\textbf{\textcolor{LightBlue}{[[#1]]}}}}
+\newcommand{\Geraldine}[1]{\textrm{\textbf{\textcolor{Orange}{[[#1]]}}}}
 %\newcommand{\Geraldine}[1]{}
 \newcommand{\GeraldineFIX}[1]{}
 \newcommand{\GeraldineTODO}[1]{}
@@ -124,11 +124,15 @@ Our key argument is that much existing HCI work can be directly relevant to soci
 
 Supporting social interactions is a long term focus for HCI. However, understanding how social and emotional skills are learned, and how this can be supported by technology, is an important but underresearched area so far. 
 
-This paper reviews the approaches to teaching and learning of such skills in other domains, with specific focus on the long history and experience around social and emotional learning in education. 
+This paper reviews the approaches to social and emotions skills learning (SEL) outside of HCI, with specific focus on the long history and experience around SEL in education. 
 
 The contribution of this paper is unpacking the ... 
 
 In doing so, we hope to raise ... 
+
+
+The contribution of this review is two-fold: On one hand, draw out initial evidence that existing work in HCI could help address some of the key challenges in SEL learning. On the other hand, we also identify the opportunities and advances doing so would raise for HCI.   
+
 
 
 
@@ -468,12 +472,13 @@ Self control and management of own emotions is a key aspect present in many curr
 Various strategies and exercises aim to help participants to relax and/or calm down once a strong feeling is recognised. These are often based on various physiological exercises such as muscle stretching and deep breathing techniques. Other strategies draw on verbal labelling, building on psychology and neuroscience findings showing that the act of consciously labelling an emotion by name (rather than ``just'' being aware of it) facilitates higher cognitive control over the emotional state \cite{Greenberg2006,Reyes2012}. Exercises training explicit acknowledgement of emotions, as well as thinking about what could be their cause, are often used. 
 Specific strategies for anger management are particularly common, often combining both verbal labelling and physical relaxation exercises. An example is the ``Turtle technique'' \cite{Robin1976}, which is still used in a number of curricula (e.g., PATHS).\GeraldineFIX{G: footnote with these named? P: Would be wuite an effort to list all -- I put in an eg instead}
 In this technique, children are taught to ``withdraw into their shell'' (by pulling their arms and legs close their body and closing their eyes) at specified occasions such as when they feel increasingly angry. This is followed by a relaxation phase, where specific muscle groups are tensed and released. Once this technique is mastered, children discuss and appropriate alternative strategies of dealing with stressful situations, now that they are able to consciously reflect and react to them.
+\todo{Add a sentense around older students -- self-control as important to support motivation and grit}
 
 \subsubsection{Communication skills}%Facilitating positive relationships},
                 Another set of activities focuses on building good communication skills and supporting positive interactions with others\footnote{While implicit in many others, this aspect is explicitly highlighted within the following curricula: Michigan Model for Comprehensive Scholl health Education, Peace  Works, Open Circle, RCCP, Responsive Classroom, Second Step, SOAR, Tribes, Al's Pals, The Incredible Years Series, MindUP, Positive Action, Steps to respect curricula. {\bf 13 in total.}}. The skills taught here aim at supporting respectful empathic communication and thus implicitly facilitating friendship relationships, and an ability to collaborate and avoid conflicts that could otherwise occur through misunderstanding. 
 
                  The emphasis is on teaching active listening, which is then used to facilitate teaching empathy. Other teaching strategies also focus on training of specific communication skills (e.g., giving and accepting compliments).
-                Exercises can include games to: induce collaborative activities; practise active listening, e.g., through listening to someone telling a story and then trying to rephrase it with as many details as possible; and disagree respectfully. These can include ways to subtly reframe a message into a form which is not threatening, such as in \citeN{ABER1998} where students are taught to acknowledge the potential mismatch between their and the other's perception of the situation (e.g., preferably saying "It seems to me you are not listening now.", rather than ``Why aren't you listening to me!'').
+                Exercises can include games to: induce collaborative activities; practise active listening, e.g., through listening to someone telling a story and then trying to rephrase it with as many details as possible; and disagree respectfully. These can include ways to subtly reframe a message into a form which is not threatening, such as in \citeN{ABER1998} where students are taught to acknowledge the potential mismatch between their and the other's perception of the situation (e.g., preferably saying "It seems to me you are not listening now.", rather than ``Why aren't you listening to me!'').\todo{Stronger connection to relationships needed.}
 
         \subsubsection{Dealing with conflicts and problematic situations} 
                 Problem solving strategies and conflict management are the final topics of most curricula\footnote{Michigan Model for Comprehensive Scholl health Education, PATHS, Peace Works, Productive Conflict Resolution Program, Quest (Violence Prevention Series), Open Circle, RCCP, RIPP, Responsive Classroom, Second Step, SOAR, Social Decision Making and Problem Solving Program, Tribes, 4Rs, Al's Pals, I Can Problem Solve, Competent Kids, The Incredible Years Series, Positive Action, Social decision making, Steps to respect, Too Good For Violence. {\bf 22 in total}}.  Violence prevention is commonly an important additional goal, as many of these curricula are designed  for schools and neighbourhoods with a high prevalence of aggression and weapon use. 
@@ -508,9 +513,8 @@ A key approach is to help students process the situation on a cognitive level, d
 \section{SEL needs and oppportunities for technology support}
 \label{sec:HCIsupport}
 
-Despite the curricula effectivity to promote learning of social and emotional skills (cf. Section~\ref{sec:reasons}), the review of SEL literature also highlights \rephrase{areas for improvement}. In the rest of this section, we outline three such exemplary areas and point to existing HCI work that suggests how incorporating digital technology may address crucial needs within SEL learning.
-
-
+Despite the curricula effectivity to promote learning of social and emotional skills (cf. Section~\ref{sec:reasons}), the review of SEL literature also highlights \rephrase{areas for improvement}. In the rest of this section, we outline three such exemplary areas and point to existing HCI work that suggests how incorporating digital technology may address crucial needs within SEL learning. 
+\todo{add the opportunities?}
 
 %The review of SEL have clearly outlined the fundamental role of experiential learning in development of social and emotional skills.
 
@@ -534,7 +538,7 @@ We start with what the SEL literature highlights as one of the key issues with e
 %
 While such transfer of learned skills is the ultimate goal of all curricula [ref,ref,ref], the current approaches are limited in scope and effectiveness and teachers (or curricula designers) struggle to directly influence embedding of skills outside of the SEL learning sessions.
 %
-For example, in their Social Policy Report \citeN{jones2012social} summarise: \qqq{Perhaps most important, and often overlooked, is the fact that SEL programs are rarely integrated into classrooms and schools in ways that are meaningful, sustained, and embedded in the day-to-day interactions of students, educators, and school staff [\dots] Most SEL programs focus solely or primarily on what goes on in the classroom, but SEL skills are also needed on playgrounds, in lunchrooms, in hallways and bathrooms -- in short, everywhere. These non-classroom contexts provide vital opportunities for students to practice their SEL skills.}
+For example, in their Social Policy Report, \citeN{jones2012social} summarise: \qqq{Perhaps most important, and often overlooked, is the fact that SEL programs are rarely integrated into classrooms and schools in ways that are meaningful, sustained, and embedded in the day-to-day interactions of students, educators, and school staff [\dots] Most SEL programs focus solely or primarily on what goes on in the classroom, but SEL skills are also needed on playgrounds, in lunchrooms, in hallways and bathrooms -- in short, everywhere. These non-classroom contexts provide vital opportunities for students to practice their SEL skills.}
 %
 Similarly, \citeN[p.70-71]{Maree2007} highlights how: \qqq{Many SEL efforts fail because long-term, coordinated plans and school-home partnerships are not developed. [\dots] [T]he efforts of school-based practice falter because educators are not committed to being ongoing, vital SEL role models. SEL involves not just the students in schools but also the adults in their lives: teachers, parents and the wider community. If these adults lack social and emotional competency, children will quickly notice the discrepancy between behaviors that the adults advocate for children and the actions that the adults take themselves.}
 
@@ -701,7 +705,7 @@ Drawing on earlier HCI research around games, augmented reality and VR, we provi
 
 \paragraph{Communication skills and collaboration} Existing research also points to several areas in which computer mediated experiences could support communication and collaboration skills. For example, initial work suggests utilising the recent advances of embodied, interactive agents to support practicing of particular skills, such as negotiation across cultures in \cite{Core2006}, or preparing for a job interview \cite{Hoque2013}. In both of these, the learner interacts with an agent in a pre-prepared scenario, and is given feedback on their behaviour (e.g., non-verbal behaviour such as smiles or speech prosodics) to support further reflection and learning. \citeN{Ulgado2013} presents a similar system aimed at supporting practice of learners on the Autism Spectrum. Each of these provides novel support for practice on specific skills that SEL curricula teach, benefiting the students in offering additional external feedback and support, that can be accessed without the need for direct involvement of teachers, parents or peers.
 %
-Prior research has also looked at the possibilities of novel interfaces such as multi-touch tabletops to scaffold cooperation and communication behaviours through placing constraints on available activities (e.g., \cite{Yuill2012}). While most of the work looking at supporting the learning of such skills look at augmenting the therapeutic approaches with autistic children (e.g., \cite{Piper2006}, or \cite{Zarin2011}), initial work suggests that similar approaches might translate also to interactions of neuro-typical children (e.g., \cite{Hinske2009,Antle2013,Cao2010,ADDNewcastleTableTopGame}) and the more complex cooperative behaviours that the SEL curricula aim for there.  
+Prior research has also looked at the possibilities of novel interfaces such as multi-touch tabletops to scaffold cooperation and communication behaviours through placing constraints on available activities (e.g., \cite{Yuill2012}). While most of the work looking at supporting the learning of such skills look at augmenting the therapeutic approaches with autistic children (e.g., \cite{Piper2006}, or \cite{Zarin2011}), initial work suggests that similar approaches might translate also to interactions of neuro-typical children (e.g., \cite{Hinske2009,Antle2013,Cao2010,Kharrufa2010}) and the more complex cooperative behaviours that the SEL curricula aim for there.  
 
 
 
@@ -751,19 +755,18 @@ Prior research has also looked at the possibilities of novel interfaces such as 
 
 \vfill ~ \pagebreak
 % {{{ SECTION -- Agenda for HCI 
-\section{Opportunities for HCI}
+\section{Opportunities and agenda for HCI}
 Previous section highlighted areas where digital technology could be particularly helpful in supporting social and emotional learning in education. We also provided examples of existing HCI work suggesting that successful support of SEL could be possible. 
 %
 We now move on to outline some of the opportunities and challenges the context of social and emotional learning opens for HCI research. 
 
 % {{{ SEL training as test-bed 
 \subsection{SEL training as a test bed for systems looking at social and emotional interaction}
-We start by suggesting that the SEL in education could presents a unique test-bed and guidance for HCI research around technologies to support social and emotional skills learning more generally; but also around other
-SEL curricula include a continuum of activities with various levels of scaffolding present: starting from tightly scaffolded interactions in class with the teacher present, to completely unstructured, in-the-wild settings at the playground or out of school. Moreover, curricula also bring a wide range of well-defined skills to be learned and supported (e.g., from identifying basic emotions to complex leadership skills), as well as evaluation methods for judging skills progression. 	
+We start by suggesting that the SEL in education could presents a unique test-bed and guidance for HCI research around technologies to support social and emotional skills learning more generally. SEL curricula include a continuum of activities with various levels of scaffolding: starting from tightly scaffolded interactions in class with the teacher present, to completely unstructured, in-the-wild settings at the playground or out of school. Moreover, curricula also bring a wide range of well-defined skills to be learned and supported (e.g., from identifying basic emotions to complex leadership skills), as well as evaluation methods for judging skills progression. 	
+
+We argue that that this curricular structure can guide and enhance HCI research looking at aspects of social and emotional interaction. As one example, we outline how designing to support SEL in education could motivate and advance the development and testing of real-world systems based on Affective Computing (AC) and Social Signals Processing (SSP) research. 
 %
-We argue that that this curricular structure can guide and enhance HCI research looking at aspects of social and emotional interaction. As one example, we outline below how designing to support SEL in education could motivate and advance the development and testing of real-world systems based on Affective Computing (AC) and Social Signals Processing (SSP) research. 
-%
-Despite the recent \rephrase{advances}, AC and SSP systems are still mostly developed and tested in the laboratory settings \cite{r,r,r}. Moreover, there is an increasing critique from both outside and within the AC and SSP fields that calls for the need of defining plausible real-world applications (e.g., \cite{Pantic2011,Vinciarelli2009}), the corresponding broadening of emotional and social states to focus on \cite{Calvo2010a,Vinciarelli2012}, and also a clearer empirical support for how these can be deployed as part of actual and deployed systems \cite{Boehner2005}}.
+AC and SSP systems are still mostly developed and tested in the laboratory settings \cite{r,r,r}. Moreover, there is an increasing critique from both outside and within the AC and SSP fields that calls for the need of defining plausible real-world applications (e.g., \cite{Pantic2011,Vinciarelli2009}), the corresponding broadening of emotional and social states to focus on \cite{Calvo2010a,Vinciarelli2012}, and also a clearer empirical support for how these can be deployed as part of actual and deployed systems \cite{Boehner2005}}.
 
 We argue that SEL in education provides not only a wide range of real-world problems where successful AC/SSP applications would be beneficial, but also offers a unique context for development and testing of initial prototypes. For example, as in-class settings marry the benefit of direct application into, and testing within, real-world scenarios, with the possibility to do so in a well constrained and manageable environment and with a facilitator who can be an expert in both the content taught as well as the (technology) tools they use. Moreover, curricula are well structured, with carefully designed exercises and progression of skills development, which can provide grounding for the design work and ease initial development of technology. In particular, this leads to a limited, quite controllable setting for technology deployment, e.g., a specific location in the classroom which is used for role-play exercises, or as part of a specific other practice setting such as a digital game (cf. Section~\ref{sec:mixedSpaces}). It also points to particular user roles that can be designed for, such as supporting the trainer's expert role (augmenting and enhancing rather than replacing their skills), facilitating peer feedback or group reflection on examples, and directly supporting the individual learners.  Such 'controlled' training spaces also bring the potential for collection of data corpuses needed AC and SSP approaches need for training of algorithms, based on of real-world learning processes, as opposed to the current practice of instrumentally designed laboratory tasks or interactions in between actors.  
 
@@ -804,41 +807,54 @@ Finally, existing work around reflection in HCI focuses on supporting reflection
 \end{itemize}
 % }}}
 
-% {{{ Design considerations 
-\subsection{Broader considerations around SEL}
-We now turn to highlight 
-\begin{itemize}
-	\item Designing for experiential learning }
-	\begin{itemize}
-		\item \rephrase{Can we make an argument that while a lot is known about what the learners (and probably teachers/paretns) need while supporting learning of usual topics such as math/sciences, very little is known about the needs of these groups within SEL. ==> especially as the existing literature in SEL does not discuss these deeply... }
-		\item Need for participatory approaches to understand the needs of students/parents/teachers. Area ripe for inclusion of technology and cultural probes (and similar approaches) to explore the settings and possible use of technology? 
-		\item Draw on Lewin2010 and Luckin to argue the potential is there but a need to carefully scaffold for parents' interaction and involvement
-		\item as experiential learning -- design to empower  explorating, safety to be self-critical and learn from own mistakes; but still aiming to develop self-esteem and confidence. 
-		\item Points to the importance of personal, private devices that balance providing cues for the learner with giving away information about their emotional state etc. 
-	\end{itemize}
+\vfill ~ \pagebreak
+% {{{ Next steps 
+\section{Next steps -- how can we design for experiential learning in SEL?}
+This section identifies several significant aspects that designing technologies for SEL will likely encounter. These provide pointers to possible next steps HCI community can take to start engaging with support for SEL learning. 
 
-	\item Taking advantage of learning process -- \todo{ kill or include above}.
-	\begin{itemize}
-		\item The training experiences have a particular quality of being ``real'' and ``not-so-real'' at the same time: often asking participants to practise and try new skills out in a ``safe place'' (e.g., through role play), where potential failures in interaction are actually a valuable basis for reflection and learning, and the expert trainer can immediately assist if problems appear. In this sense, such in-session training is a `real' situation in terms of the learning setting, but fictional and `unreal' for the participants, and also a situation that is specifically open to, and designed for, external feedback and reflection. 
-	\end{itemize}
+\subsubsection*{What challenges do learners face?} Whereas a large body of literature in HCI examined the needs of learners and their teachers in classical academic subjects (e.g., maths, sciences, language learning), the prevalent issues students, teachers and parents face as part of taking part in SEL curricula are not clear from the existing literature. In fact, although such knowledge must exist within the SEL practioners community---e.g., majority of SEL curricula provide training workshops as part of the curricula deployment in new schools, and have trained thousands of teachers---none of the academic papers, online resources, or books we have reviewed addressed this issue deeply enough to allow us to identify specific guidelines for technology design. \todo{Geraldine -- is this similar to what was with the medical community before HCI/CSCW got involved?}
 
-	\item \todo{FIX -- } {\bf Designing to ``teach and disappear''} 
-	\begin{itemize}
-		\item Most social and emotional skills courses, irrespective of domain, run only for a limited time. This can often be as short as a few hours or a weekend; or span longer time periods, but possibly limited to several hours every week (e.g., as in K9 school curricula). 
-In both cases, the aim is to facilitate development of new skills over the duration of the course, and it is crucial that the skills become embedded enough to persist even after the course is finished.
-Although it might be relevant for some cases to develop technology that allows to extend or supplement the course duration, the ultimate goal of technology is likely to scaffold and help learn skills that will stay available \emph{after} the technology is taken away. This provides interesting and novel challenges to designing systems, especially with the potential to enriching approaches used in behavioural change and related fields. Additionally, such a focus calls for designs that can adapt and follow the learning curve of students, always supporting the next `zone of proximal development' \cite{vygotsky1987collected}.
+So although the SEL literature can suggests broader areas where technology could address existing challenges that curricula designers struggle with---such as the embedding of skills and developing reflective abilities outlined here---there is a clear need for user-centered and participatory studies to unpack the specific issues students, teachers and parents face during the learning process. For example, collaboration with schools that are just about to deploy a new SEL curricula, as well as the training departments of established curricula (e.g., CASEL website or guides \cite{CASEL2003,CASEL2013} can provide contact details to highly rated curricula) is likely to be an excellent first step. %\todo{Due to recent increase in funding for inclusion of SEL into schools across US [ref], recruitement could be reasonably easy.. } 
+%
+Moreover, initial technology (or culture) probes can help explore the possible benefits of technology in this context, as suggested by a number of similar successful projects (e.g., \cite{Lewin2010,Balaam2010,addAutismLit,addAutismLit,addAutismLit}).
+
+\subsubsection*{Tentative design factors}
+That said, we now offer our \rephrase{tentative expectations} of the factors that might prove particularly important for designing technologies to support SEL learning, possibly guiding initial probes and studies. We build on our understanding of the SEL literature, and experiential learning more broadly \cite{Moon}. In particular, we expect the resulting systems to empower learners to exploration various facets of their behaviour, promoting the feeling of safety to be self-critical and positively learn from own mistakes, while encouraging self-esteem and confidence in own development. As highlighted by 'social reflection' section, this will likely involve supporting learners to collabotively discuss and co-create interpretations of the social interaction, with specific focus on sharing their perceptions of the other. However, other aspects of SEL (such as skills around self-control) points to the importance of personal devices that balance providing cues for the learner with openly giving away information about their emotional state. Wearable devices, that offer opportunities of private feedback (e.g., the subtle vibration of FitBit wrist bands) could be a possible way to do so. 
+
+Moreover, although SEL curricula may span longer time periods, such as several years, the aim is to facilitate development of new skills over the duration of the course, and it is crucial that the learned skills persist even after the course is finished. In supporting these, the aim of technology is thus likely to scaffold and help learn skills that will stay available even \emph{after} the technology is taken away. This provides interesting and novel challenges to designing systems, for example designing support systems that gradually recede into the background and the learner becomes more capable herself.
+%
+Whereas some of the existing systems in HCI do seem to promote transferable skills through short-term intervention after which the support is taken away---e.g., MACH \cite{Hoque2013} improving learners' skills for a job interview, or bio-feedback in a game improving self-control for soldiers \cite{Bouchard2012}---to best of our knowledge there is limited work on unpacking our understanding of what can we do to promote, and design for, such 'teach and dissappear' technologies around social and emotional skills, or also other skills, more generally. 
+
+
+
+\subsubsection*{Roles for HCI}
+The complexity, scale and dependencies of such large-scale projects necessarily affect ways in which we as HCI practitioners can engage.  An extensive discussion of similar issues in related domains is already available. 
+%, as already discussed in section \ref{sec:designSpecChal}. 
+%
+For example, \citeN{Coyle2007} suggests a two stage process in the area of talk-based therapies, where the first exploratory part is led by HCI with cooperation from experts from the other domain, aiming to iteratively develop and run initial evaluations of promising systems to the point ``where they are shown to be usable by the target end users, are agreed to have clinical validity and are predicted to have therapeutic benefits.'' Stage two then focuses on larger scale evaluations and the roles exchange: the lead is assumed by the curricula experts with HCI researchers in a collaborating role, and receiving feedback on the systems use in real-world practice.
+\citeN{Fitzpatrick2012} discuss similar issues in their review of CSCW systems in medical settings, arguing for the need to engage with and raise awareness of CSCW (and HCI related) issues with many of the stakeholders. 
+
+
+We suggest a combination of the \citeN{Coyle2007} model of cooperation with curricula designers, complemented %for social skills learning systems, aiming to develop systems with immediate practical use and deployment; 
+with another stream of more independent, smaller, exploratory studies that try to push the boundaries of what might be possible to do with technology in the first place.  In other words, we can see benefit in parallel research on two areas: (i) aiming for large scale, real-world impact with technologies/ideas that are already matured in HCI, in close cooperation with curricula designers and large interdisciplinary projects; and (ii) more exploratory HCI process, that draws on existing curricula and the challenges, bringing novel, untested technology and exploring a broad range of viable approaches that eventually feed into the first stream. It is our hope that this article could inspire future work pursuing either of the two direction. 
+
 	\item \todo{combine with {\bf Need for cooperation and knowledge sharing with curricula designers}
         The learning principles identified earlier---together with curricula descriptions available in literature---are likely to help initial explorations of the design space. However, developing systems either in collaboration with curricula designers, or directly for specific existing curricula will be crucial for real-world usefulness and deployment of the developed systems. %In other words, it doesn't make sense to design and deploy new curricula within HCI, but rather cooperate with curricula designers and use their knowledge to jointly find most effective and beneficial ways to include technology into novel or existing curricula designs. 
         \citeN{Coyle2007} have discussed this issue with respect to designing for the mental-health domain;  \citeN{Porayska-Pomsta2011} address the challenges of similar interdisciplinarity in designing for autism. We will argue in the next section how their approach can be extended to the whole setting of social and emotional skills, and return to the methodological challenges brought about by such interdisciplinary cooperation. }
 	\end{itemize}
 
+	
 	\item age approapriate skills to be supported (and interactions)  
 	\begin{itemize}
 		\item use the table from Elias to give examples with a reference -- e.g., basic behaviours to make friends (SecondStep Kindergarden) vs. leadership skills (RCCP examples for teenagers)}
 		\item However, this is already section 3.5.5 so perhaps just refer to that? Or combine with the methods. 
 	\end{itemize}
 
-	\item \todo{FIX -- } {\bf Complexity of curricula -- need for adaptability and modularity}
+
+%		\item The training experiences have a particular quality of being ``real'' and ``not-so-real'' at the same time: often asking participants to practise and try new skills out in a ``safe place'' (e.g., through role play), where potential failures in interaction are actually a valuable basis for reflection and learning, and the expert trainer can immediately assist if problems appear. In this sense, such in-session training is a `real' situation in terms of the learning setting, but fictional and `unreal' for the participants, and also a situation that is specifically open to, and designed for, external feedback and reflection. 
+
+
+\item \todo{FIX -- } {\bf Complexity of curricula -- need for adaptability and modularity}
 Another challenge is posed by the complexity of curricula, the wide range of skills that are usually taught and the developmental/progressive nature of skill acquisition. This suggests the need for modularity of the designed systems and preference for highly versatile and re-usable designs that can be adapted for teaching many aspects within the curricula and personalised to individual learning paths. %\rephrase{Immediate ideas are either to support an underlying process (e.g., reflection) in such a way that it can be applied to multiple scenarios, or }
 %
 %
@@ -847,18 +863,6 @@ Cost-benefit ratio and robustness of the system will be also important, both in 
 Technology will also need to adapt to the differences among domains and settings, and the related variances in the length, focus and breadth of curricula, even when supporting a concept important across the domains (such as self-reflection). For example, we expect differences between designing for young learners (such as in education curricula and psychotherapy for adolescents) and for adult learners (e.g., in business and medical domain courses); and differences in supporting social skill acquisition for professional versus personal motivations.
 \Geraldine{G: could reference here something from the PAL\ project   and their AIRS platform and/or the MyRoR platform as technical architectures specifically aiming to support such adaptive modularity    }
 
-\subsection{Roles for HCI}
-The complexity, scale and dependencies of such large-scale projects necessarily affect ways in which we as HCI practitioners can engage.  An extensive discussion of similar issues in related domains is already available. 
-%, as already discussed in section \ref{sec:designSpecChal}. 
-%
-For example, \citeN{Coyle2007} suggests a two stage process in the area of talk-based therapies, where the first exploratory part is led by HCI with cooperation from experts from the other domain, aiming to iteratively develop and run initial evaluations of promising systems to the point ``where they are shown to be usable by the target end users, are agreed to have clinical validity and are predicted to have therapeutic benefits.'' Stage two then focuses on larger scale evaluations and the roles exchange: the lead is assumed by the curricula experts with HCI researchers in a collaborating role, and receiving feedback on the systems use in real-world practice.
-\citeN{Fitzpatrick2012} discuss similar issues in their review of CSCW systems in medical settings, arguing for the need to engage with and raise awareness of CSCW (and HCI related) issues with many of the stakeholders. 
-
-We suggest a combination of the \citeN{Coyle2007} model of cooperation with curricula designers, complemented %for social skills learning systems, aiming to develop systems with immediate practical use and deployment; 
-with another stream of more independent, smaller, exploratory studies that try to push the boundaries of what might be possible to do with technology in the first place.  In other words, we can see benefit in parallel research on two areas: (i) aiming for large scale, real-world impact with technologies/ideas that are already matured in HCI, in close cooperation with curricula designers and large interdisciplinary projects; and (ii) more exploratory HCI process, that draws on existing curricula and the challenges, bringing novel, untested technology and exploring a broad range of viable approaches that eventually feed into the first stream. It is our hope that this article could inspire future work pursuing either of the two direction. 
-
-
-	
 \end{itemize}
 
 
