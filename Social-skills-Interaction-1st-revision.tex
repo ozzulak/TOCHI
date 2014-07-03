@@ -99,7 +99,7 @@ Version from \affil{ \today, \currenttime }
 % {{{  --- Abstract 
 \section*{Abstract} 
 Supporting social interactions is a long term focus for HCI and CSCW. However, understanding how social and emotional skills are learned, and how this process can be supported by technology, is an important but underresearched area so far. 
-%
+% 
 This paper reviews the approaches to social and emotions skills learning (SEL) outside of HCI, where a large number of evidence-based programs is widely deployed. However, very little technology gets used in these programs, despite its potential to enhance and complement the existing approaches.  
 %
 %Primary aim of this paper is to provide a foundation and set an agenda for future research on the design of technology that would support, and help teach, social and emotional skills. 
@@ -120,22 +120,30 @@ Our key argument is that much existing HCI work could be used in support of soci
 % }}}
 
 
+% {{{ SECTION: Introduction
+\section{Introduction}
 
-\iffalse
-\section{\todo{Temp:} Key Argument}
+Social and emotional skills refer to a variety of skills that are crucial for our everyday life and healthy development \cite{Weare2011,Adi2007a,Damon2006},  encompassing a broad range of interpersonal skills, as well as emotion skills such as self-control or mindfulness. 
+%
+However, understanding how such social and emotional skills are learned, and how this learning process can be supported by technology, is yet an emerging area of research within HCI. 
 
+Such growing interest is manifested by the recent work around social skills learning in autism \cite{Kientz2013}, computerised Cognitive Behavioural Therapy \cite{Coyle2007}, as well as a number of individual systems aiming to  affect particular social behaviour such as discussion dominance or rapport \cite{Balaam2011,Kim2008}. However, the early stages of work in this area also point to two important limitations: 
+	First, most of the research so far is limited in scope, with focus on specific disadvantaged populations, especially the support for people with autism. This leaves aside other settings where social and emotional skills learning is crucial. 
+	Second, the existing work has provided limited evidence to show the effects of training on real-world situations so far (cf. \cite[p. 108-109]{Kientz2013} for a summary of autism related research), with projects often focusing on exploratory pilot deployments and preliminary evaluation only. 
 
-Supporting social interactions is a long term focus for HCI. However, understanding how social and emotional skills are learned, and how this can be supported by technology, is an important but underresearched area so far. 
+In contrast, an increasing number of interventions and courses are developed outside of HCI to specifically support social and emotional skill learning (SEL) in everyday settings, and for a wide range of users across diverse domains such as school education, clinical settings, or leadership \cite{Greenberg2010,Stepien2006,Barth2011,Carey2011,Bono2009}. Particularly SEL in school education draws on 20+ years' history of teaching social and emotional skills through carefully designed, evidence-based programs that support a wide range social and emotional skills needed for adult life. Moreover, the wide scale deployments of these programs build on established methodologies to evaluate the effect of such curricula on learners' behaviour, showing that such skills are teachable and that interventions can lead to measurable improvements \cite{Durlak2011,Weare2011}. However, very little if any technology gets used in the current curricula. 
 
-This paper reviews the approaches to social and emotions skills learning (SEL) outside of HCI, with specific focus on the long history and experience around SEL in education. 
+This review outlines the unique opportunity for cooperation and mutual enrichment of SEL and HCI research, drawing on the overlap of complementary interests and knowledge around social and emotional learning. 
+%
+% <SEL gives HCI> 
+On one hand, we argue how the knowledge base and existing curricula structure could guide and support HCI research looking to support social and emotional learning in school education, or other settings. As one example, SEL in education is likely to prove as a good test-bed for cutting edge HCI systems. SEL courses offer a wide range of well defined skills to be learned as well as various levels of scaffolding that HCI designers can draw on to develop, deploy, and evaluate novel technology. 
+% <HCI gives SEL>
+On the other hand, the review of SEL curricula highlights a number of challenges faced SEL practitioners---such as the lack of support for students' learning outside of SEL training classes and in everyday situations---that could be addressed by technology. In fact, we argue that although much of existing HCI work was not, so far, connected to social skills training, it is actually highly relevant and could be beneficial for augmenting existing SEL curricula. Moreover, these SEL challenges raise new opportunities for HCI research to explore if and how we can design technologies to support social and emotional learning more generally. 
+%
+Overall, this paper aims to contribute towards defining a systematic programme of research for HCI in support of social and emotional learning through technology. 
 
-The contribution of this paper is unpacking the ... 
-
-In doing so, we hope to raise ... 
-
-
-The contribution of this review is two-fold: On one hand, draw out initial evidence that existing work in HCI could help address some of the key challenges in SEL learning. On the other hand, we also identify the opportunities and advances doing so would raise for HCI.   
-\fi
+The remainder of this paper is divided into eight sections.  We first focus on SEL in schools as the exemplary domain (Section~\ref{sec:SEL}), given its longest history of both academic research and practical applications, esses the widest range of life skills. The following three sections link the SEL literature in education to particular examples of, and opportunities for, HCI research. We first  identify the key challenges across the existing social and emotional skill curricula from an HCI perspective and point to initial HCI work suggesting how these could be addressed by technology (Section~\ref{sec:HCIsupport}). We continue by outlining how such focus on SEL would raise interesting research opportunities for HCI (Section~\ref{sec:HCIopportunities}) and suggest the next steps HCI community could make to engage with supporting SEL learning (Section~\ref{sec:HCInextsteps}). 
+The next to last section steps away from SEL in education to outline other domains where learning of social and emotional skills is crucial (workplace, medical, psychotherapeutic, and everyday life settings). We provide a brief overview of SEL methods and topics within each to inspire and guide future work (Section~\ref{sec:linkDomains}), before the last section \rephrase{summarises and concludes the paper} (Section~\ref{sec:conclusion}).  
 
 
 
@@ -143,13 +151,15 @@ The contribution of this review is two-fold: On one hand, draw out initial evide
 %First, SEL programs face the need to better support 'embedding' of the social and emotional skills learned during sessions into everyday life of the students. While the existing approaches, such as homeworks, essays etc., go only so far, drawing on the recent advances in mobile, ubiquitous and sensing technology could make a big difference.
 
 %Second, existing curricula bring structure and a list of activities that could be supported by digital technology -- allowing tech to be specialised for a specific role, and fit into existing practices, rather than having to take care of all. A similar situation in the related areas of autism or CBT, where the fact that technology support and enhances existing practices helps guide research and pose clear research questions. 
+% }}}
 
-
-
+\iffalse
 % {{{ SECTION -  Introduction
-\section{Introduction}
+\section{Introduction -- old}
  
-Social and emotional skills refer to a range of skills that are crucial for our everyday life and healthy development \cite{Weare2011,Adi2007a,Damon2006}. We define the term broadly here to include skills such as those related to emotional intelligence, interpersonal and communication skills, and also skills such as mindfulness, self-control and empathy. The importance of such skills for personal competence and well-being is acknowledged both in research and industry \cite{Durlak2011,Greenberg2010,Stepien2006,Barth2011,Carey2011,Bono2009}. Social and emotional skills are particularly valued in diverse domains such as education (from kindergarten to university education), leadership, social work, psychotherapy, and medical/clinical settings. 
+ Social and emotional skills refer to a range of skills that are crucial for our everyday life and healthy development \cite{Weare2011,Adi2007a,Damon2006}.We define the term broadly here to include skills such as those related to emotional intelligence, interpersonal and communication skills, and also skills such as mindfulness, self-control and empathy. 
+
+The importance of such skills for personal competence and well-being is acknowledged both in research and industry \cite{Durlak2011,Greenberg2010,Stepien2006,Barth2011,Carey2011,Bono2009}. Social and emotional skills are particularly valued in diverse domains such as education (from kindergarten to university education), leadership, social work, psychotherapy, and medical/clinical settings. 
 
 %\todo{This is particularly important for schools as ... societal blah from Cohen2001 and others? around how many students have obvious SEL problems and how teaching could help with these.}
         %
@@ -181,9 +191,9 @@ Moreover, we argue that although much of existing HCI work was not, so far, conn
 We then point to particular opportunities for further research into this topic, outlining the potential of such mutually enriching connections in more detail. 
 
 
+
 The remainder of this paper is divided into seven sections.  We first focus on SEL in schools  as an exemplary domain (Section~\ref{sec:SEL}), given it has the longest history of both academic research and practical applications, and addresses  the widest range of life skills. The following three sections link the SEL literature in education to particular examples of, and opportunities for, HCI research. We first  identify the key challenges across the existing social and emotional skill curricula from an HCI perspective and point to initial HCI work suggesting how these could be addressed by technology (Section~\ref{sec:HCIsupport}). We continue by outlining how such focus on SEL would raise interesting research opportunities for HCI (Section~\ref{sec:HCIopportunities}) and suggest the next steps HCI community could make to engage with supporting SEL learning (Section~\ref{sec:HCInextsteps}). 
 We then step away from SEL in education for a moment to outline other domains where learning of social and emotional skills is crucial (workplace, medical, psychotherapeutic, and everyday life settings), providing a brief overview of SEL methods and topics within each to inspire and guide future work (Section~\ref{sec:linkDomains}). Finally, Section~\ref{sec:conclusions} \rephrase{summarises and wraps up the paper.}  
-
 \todolater{Downplay the direct applicability to SEL --> existing work albeit in other topics, makes it plausible that it could support SEL.}
 
 \todolater{Results overview}
@@ -221,7 +231,7 @@ The text is structured to allow for several ways in which readers can approach t
 
 
 % }}}
-
+\fi
 
 %{{{ SECTION -  Life skills courses in education 
 \section{Life skills courses' contents within education}
@@ -248,7 +258,7 @@ Second, SEL has more than 20 years' history of peer-reviewed programs, which hav
 
 Third, recent academic reviews analyse the evidence-base for the effectiveness of SEL programs and find measurable and significant positive effects of SEL in randomised trials, e.g., \cite{Durlak2011,Greenberg2010,Weare2011}. In particular, the social and emotional skills curricula lead to improvements in the academic performance and the skills actually taught (e.g.,  \citeN{Durlak2011} report average of 11\% improvement in achievement tests, 25\% in social and emotional skills in the 207 SEL interventions reviewed), as well as positive impacts on many other aspects of behaviour such as mental health \cite{Adi2007a}, violence prevention \cite{Mytton2006,Adi2007b}, conflict resolution \cite{Garrard2007},  and bullying \cite{Vreeman2007}. For more detail see e.g., \citeN{Weare2011} who provide a meta-review of 52 reviews in this domain, concluding that the interventions ``had wide-ranging beneficial effects on individual children and young people, on classrooms, families and communities and on an array of mental health, social, emotional and educational outcomes''.
 
-Despite these achievements, the SEL literature also highlights several aspects that need to be improved on---such as the embedding and transfer of learned skills out of SEL training classes and into everyday situations---and suggests, in combination with existing HCI work, that inclusion of digital technology could further enhance and improve the effects and efficiency of curricular training.
+%Despite these achievements, the SEL literature also highlights several problem areas which curricula struggle with---such as the embedding and transfer of learned skills out of SEL training classes and into everyday situations---and suggests, in combination with existing HCI work, that inclusion of digital technology could further enhance and improve the effects and efficiency of curricular training.
 
 %Lastly, the topic also gains increasing political support in the US and Europe, suggesting that social and emotional learning programs for schools might be soon \rephrase{common}. As such, SEL itself provides a novel design space for HCI that could have a strong impact on everyday life and direct real-world applications. 
 
@@ -504,7 +514,7 @@ Despite the curricula effects on promoting learning of social and emotional skil
 \label{sec:embedding}
 We start with what the SEL literature highlights as one of the key issues with existing SEL curricula -- i.e., the lack of support for transfer and 'embedding' of the skills students learn in SEL classes into their other real-world interactions, be that still within school (other classes, playground) or everyday behaviour within family and peer groups. 
 %
-While such transfer of learned skills is the ultimate goal of all curricula [ref,ref,ref], the current approaches are limited in scope and effectiveness. This leaves teachers (and curricula designers) struggling to directly influence embedding of skills outside of the SEL learning sessions.
+While such transfer of learned skills is the ultimate goal of all curricula \todo{ref,ref,ref}, the current approaches are limited in scope and effectiveness. This leaves teachers (and curricula designers) struggling to directly influence embedding of skills outside of the SEL learning sessions.
 %
 For example, \citeN{jones2012social} summarise the situation as follows: \qqq{Perhaps most important, and often overlooked, is the fact that SEL programs are rarely integrated into classrooms and schools in ways that are meaningful, sustained, and embedded in the day-to-day interactions of students, educators, and school staff [\dots] Most SEL programs focus solely or primarily on what goes on in the classroom, but SEL skills are also needed on playgrounds, in lunchrooms, in hallways and bathrooms -- in short, everywhere. These non-classroom contexts provide vital opportunities for students to practice their SEL skills.}
 %
@@ -856,7 +866,6 @@ with another stream of more independent, smaller, exploratory studies that try t
 \end{itemize}
 \fi
 
-
 %{{{ SECTION: Links to other domains
 \section{Broader implications -- SEL in other domains}
 \label{sec:linkDomains}
@@ -1014,7 +1023,6 @@ Altogether, these examples draw out the large scope of everyday life skills lear
 
 %}}}
 
-\vfill ~ \pagebreak
 % {{{ SECTION: Conclusions
 \section{Conclusions}
 \label{sec:conclusion}
